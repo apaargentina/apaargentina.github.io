@@ -3,7 +3,7 @@ layout: post
 title: "XXIV Congreso Argentino de Herpetología"
 date: 2024-07-12
 categories: ["Eventos", "Congreso", "Herpetología"]
-imagen: header_herpetologia.png        # opcional, va en assets/img/noticias/
+imagen: herpe-image-12.png        # opcional, va en assets/img/noticias/
 excerpt: "Información sobre el XXIV Congreso Argentino de Herpetología"
 ---
 
@@ -15,7 +15,7 @@ Durante estos días destacados herpetólogos nacionales e internacionales compar
 
 Para más información pueden acceder a los links indicados abajo.
 
-![lagartija](herpe-image-12.png)
+![banner congreso](header_herpetologia.png)
 
 ¡No se lo pierdan!
 
