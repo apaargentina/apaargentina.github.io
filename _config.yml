@@ -43,7 +43,7 @@ facebook_url: "https://www.facebook.com/share/1WZXD5F2YC/"             # Faceboo
 
 # Documentos y formularios (La Asociación). Vacío ("") = el link se ve atenuado y sin destino.
 # Acepta una URL completa o la ruta de un PDF subido al sitio, ej. "/assets/docs/estatutos.pdf"
-estatutos_url: ""
+estatutos_url: "/assets/docs/Estatuto-de-APA-2018.pdf"
 directorio_delegados_url: "/assets/docs/directorio-delegados.pdf"
 directorio_grupos_url: "/assets/docs/directorio-grupos.pdf"
 registro_grupo_url: ""           # Google Form
