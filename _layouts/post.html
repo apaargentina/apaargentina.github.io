@@ -21,7 +21,23 @@ layout: default
       {% if img != "" %}
       <img src="{{ img | strip }}" alt="{{ page.title }}" style="width:100%; border-radius: var(--radius-lg); margin-bottom: 1.75rem;" />
       {% endif %}
-      {{ content }}
+      {%- comment -%} Imágenes del texto: si solo se escribe el nombre (foto.jpg) se busca en assets/img/noticias/ {%- endcomment -%}
+      {%- assign partes = content | split: '<img src="' -%}
+      {%- capture cuerpo -%}
+        {{- partes[0] -}}
+        {%- for parte in partes offset: 1 -%}
+          {%- assign src = parte | split: '"' | first -%}
+          {%- assign primero = src | slice: 0, 1 -%}
+          {%- if src contains "://" or primero == "/" or src contains "data:" -%}
+            <img src="{{ parte }}
+          {%- elsif src contains "/" -%}
+            <img src="{{ src | prepend: "/" | relative_url }}{{ parte | remove_first: src }}
+          {%- else -%}
+            <img src="{{ src | prepend: "/assets/img/noticias/" | relative_url }}{{ parte | remove_first: src }}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+      {{ cuerpo }}
     </article>
     {% if page.categories contains 'Eventos' %}{% assign volver = '/eventos/' %}{% elsif page.categories contains 'Formación y Convocatorias' %}{% assign volver = '/formacion-convocatorias/' %}{% else %}{% assign volver = '/' %}{% endif %}
     <a href="{{ volver | relative_url }}" class="btn btn-secondary" style="margin-top: 1.5rem;">← Volver</a>
