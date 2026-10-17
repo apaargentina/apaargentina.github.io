@@ -51,12 +51,16 @@ registro_grupo_url: ""           # Google Form
 # Convenios (La Asociación): un badge por convenio, en este orden.
 # url: PDF subido a assets/docs/ (ej. "/assets/docs/convenio-x.pdf") o link completo. Vacío ("") = badge sin link.
 convenios:
-  - nombre: "Convenio 1 (completar)"
-    url: ""
-  - nombre: "Convenio 2 (completar)"
-    url: ""
-  - nombre: "Convenio 3 (completar)"
-    url: ""
+  - nombre: "Sociedad Argentina Para el estudio de los Mamíferos (SAREM)"
+    url: "/assets/docs/CONVENIO-APA-SAREM.pdf"
+  - nombre: "Sociedad Argentina de Protozoología (SAP)"
+    url: "/assets/docs/CONVENIO-APA-SAP.pdf"
+  - nombre: "Asociación de Hidatidología Argentina (AHA)"
+    url: "/assets/docs/CONVENIO-APA-AHA.pdf"    
+  - nombre: "Asociación Argentina de Zoonosis (AAZ)"
+    url: "/assets/docs/CONVENIO-APA-AAZ.pdf"
+  - nombre: "Asociación Argentina de Microbiología (AAM)"
+    url: "/assets/docs/CONVENIO-APA-AAM.pdf"
 
 # Asociate: valores de membresía. Todo se edita acá.
 # Un formulario vacío ("") deja el botón atenuado y sin destino.
