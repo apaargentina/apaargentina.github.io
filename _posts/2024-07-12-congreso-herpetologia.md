@@ -7,13 +7,19 @@ imagen: header_herpetologia.png        # opcional, va en assets/img/noticias/
 excerpt: "Información sobre el XXIV Congreso Argentino de Herpetología"
 ---
 
-¡Bienvenidos al XXIV Congreso Argentino de Herpetología!
-En esta ocasión, nos reuniremos nuevamente en Corrientes del 1 al 4 de octubre de 2024, en la Facultad de Ciencias Exactas y Naturales y Agrimensura, Campus Deodoro Roca, de la Universidad Nacional del Nordeste.
-Durante estos días destacados herpetólogos nacionales e internacionales compartirán sus investigaciones y experiencias a través de conferencias magistrales, cursos, talleres y presentaciones en modalidad oral y póster.
+Desde el 1 al 4 octubre se realizará el XXIV Congreso Argentino de Herpetología.
+
+Este evento tendrá lugar en la Facultad de Ciencias Exactas y Naturales y Agrimensura, Campus Deodoro Roca, de la Universidad Nacional del Nordeste, Corrientes.
+
+Durante estos días destacados herpetólogos nacionales e internacionales compartirán sus investigaciones y experiencias a través de conferencias magistrales, cursos, talleres y presentaciones en modalidad oral y póster. 
+
+Para más información pueden acceder a los links indicados abajo.
 
 ![lagartija](herpe-image-12.png)
 
 ¡No se lo pierdan!
+
+[Sitio web del Congreso](https://exa.unne.edu.ar/Congreso%20de%20Herpetologia/)
 
 [Primera Circular](https://exa.unne.edu.ar/docs/2024/XXIVCAH%201ra%20Circular.pdf)
 
