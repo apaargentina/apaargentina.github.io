@@ -7,7 +7,7 @@
     "assets/img/otra/foto.jpg"       -> /assets/img/otra/foto.jpg   (ruta desde la raíz del sitio)
     "https://..."                    -> se usa tal cual
     link "blob" de github.com        -> se convierte al link directo de la imagen
-  Devuelve texto vacío si no hay valor. Usar con {% capture %}.
+  Devuelve texto vacío si no hay valor. Usar dentro de un bloque capture.
 {%- endcomment -%}
 {%- assign v = include.valor | default: "" | strip -%}
 {%- assign carpeta = include.carpeta | default: "personas" -%}
