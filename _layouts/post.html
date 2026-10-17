@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="page-header">
+  <div class="wrap fade-up">
+    <div class="section-label">{% if page.categories.size > 0 %}{{ page.categories | join: ' · ' }}{% else %}Novedad{% endif %}</div>
+    <h1 class="page-header-title">{{ page.title }}</h1>
+    <p class="page-header-desc">
+      <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted);">
+        {{ page.date | date: "%d de %B de %Y" }}
+      </span>
+    </p>
+  </div>
+</div>
+
+<div class="section" style="padding-top:0;">
+  <div class="wrap">
+    <article class="post-content">
+      {% capture img %}{% include img-src.html valor=page.imagen carpeta="noticias" %}{% endcapture %}
+      {% if img != "" %}
+      <img src="{{ img | strip }}" alt="{{ page.title }}" style="width:100%; border-radius: var(--radius-lg); margin-bottom: 1.75rem;" />
+      {% endif %}
+      {{ content }}
+    </article>
+    {% if page.categories contains 'Eventos' %}{% assign volver = '/eventos/' %}{% elsif page.categories contains 'Formación y Convocatorias' %}{% assign volver = '/formacion-convocatorias/' %}{% else %}{% assign volver = '/' %}{% endif %}
+    <a href="{{ volver | relative_url }}" class="btn btn-secondary" style="margin-top: 1.5rem;">← Volver</a>
+  </div>
+</div>

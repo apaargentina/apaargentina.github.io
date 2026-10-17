@@ -1,0 +1,19 @@
+{%- comment -%}
+  Resuelve la ruta de una imagen escrita por el equipo. Parámetros:
+    valor   — lo que escribieron (nombre de archivo, ruta o URL)
+    carpeta — carpeta por defecto dentro de assets/img/ (personas, grupos, noticias)
+  Reglas (iguales para fotos de personas, grupos e imágenes de entradas):
+    "foto.jpg"                       -> /assets/img/<carpeta>/foto.jpg
+    "assets/img/otra/foto.jpg"       -> /assets/img/otra/foto.jpg   (ruta desde la raíz del sitio)
+    "https://..."                    -> se usa tal cual
+    link "blob" de github.com        -> se convierte al link directo de la imagen
+  Devuelve texto vacío si no hay valor. Usar con {% capture %}.
+{%- endcomment -%}
+{%- assign v = include.valor | default: "" | strip -%}
+{%- assign carpeta = include.carpeta | default: "personas" -%}
+{%- if v == "" -%}
+{%- elsif v contains "github.com/" and v contains "/blob/" -%}{{ v | replace: "github.com/", "raw.githubusercontent.com/" | replace: "/blob/", "/" }}
+{%- elsif v contains "://" -%}{{ v }}
+{%- elsif v contains "/" -%}{{ v | prepend: "/" | replace: "//", "/" | relative_url }}
+{%- else -%}{{ v | prepend: "/" | prepend: carpeta | prepend: "/assets/img/" | relative_url }}
+{%- endif -%}

@@ -1,0 +1,51 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+
+      <div>
+        <div class="footer-brand">
+          <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="APA">
+          <span>Asociación Parasitológica Argentina</span>
+        </div>
+        <div class="footer-social">
+          {% if site.instagram_url != "" %}
+          <a class="social-btn social-btn--label" href="{{ site.instagram_url }}" target="_blank" rel="noopener" aria-label="Instagram de la Asociación Parasitológica Argentina" title="Instagram APA"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg><span>APA</span></a>
+          {% endif %}
+          {% if site.revista_instagram_url != "" %}
+          <a class="social-btn social-btn--label" href="{{ site.revista_instagram_url }}" target="_blank" rel="noopener" aria-label="Instagram de la Revista Argentina de Parasitología" title="Instagram Revista"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg><span>Revista</span></a>
+          {% endif %}
+          {% if site.facebook_url != "" %}
+          <a class="social-btn" href="{{ site.facebook_url }}" target="_blank" rel="noopener" aria-label="Facebook de la Asociación Parasitológica Argentina" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          {% endif %}
+          <a class="social-btn" href="mailto:{{ site.email }}" aria-label="Enviar un correo a {{ site.email }}" title="Correo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+        <address class="footer-address">Calle 120 s/n entre 61 y 62 (1900), La Plata, Buenos Aires, Argentina</address>
+      </div>
+
+      <div>
+        <div class="footer-col-title">La Asociación</div>
+        <ul class="footer-links">
+          <li><a href="{{ '/asociacion/' | relative_url }}">Quiénes somos</a></li>
+          <li><a href="{{ '/asociacion/#comision' | relative_url }}">Comisión Directiva</a></li>
+          <li><a href="{{ '/asociacion/#delegados' | relative_url }}">Delegados Regionales</a></li>
+          <li><a href="{{ site.revista_url }}" target="_blank" rel="noopener">Revista ↗</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Participar</div>
+        <ul class="footer-links">
+          <li><a href="{{ '/eventos/' | relative_url }}">Eventos</a></li>
+          <li><a href="{{ '/formacion-convocatorias/' | relative_url }}">Formación y Convocatorias</a></li>
+          <li><a href="{{ '/asociate/' | relative_url }}">Asociate</a></li>
+          <li><a href="{{ '/contacto/' | relative_url }}">Contacto</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© {{ 'now' | date: "%Y" }} Asociación Parasitológica Argentina. Sitio desarrollado por Mauricio Barbieri.</span>
+    </div>
+  </div>
+</footer>

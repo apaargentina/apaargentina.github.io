@@ -1,0 +1,124 @@
+---
+layout: page
+permalink: /asociacion/
+title: "La Asociación"
+label: "Institucional"
+description: "La Asociación Parasitológica Argentina (APA) es una entidad científica sin fines de lucro, con Personería Jurídica desde 2008, dedicada a la promoción, difusión y asesoramiento en Parasitología con un enfoque multidisciplinario, desde Argentina para el mundo."
+use_map: true
+# Estilo de los badges de Convenios (exploración): "a" = píldora, "b" = ficha, "c" = etiqueta.
+# Cambiá la letra, publicá, y mirá cuál funciona mejor.
+convenios_estilo: "a"
+---
+
+<div class="section" style="padding-top:0;">
+  <div class="wrap">
+
+    <div class="post-content">
+      <p>
+        Somos miembros de la World Federation of Parasitologists (WFP) y de la Federación Latinoamericana de
+        Parasitología (FLAP).
+      </p>
+    </div>
+
+    <div class="doc-links" style="margin-bottom: 2.5rem;">
+      {% include doc-link.html url=site.estatutos_url label="Estatutos" icon="pdf" %}
+    </div>
+
+    <div class="post-content" id="convenios" style="margin-bottom: 3rem;">
+      <h2>Convenios</h2>
+      <div class="convenios convenios--{{ page.convenios_estilo | default: 'a' }}">
+        {% for c in site.convenios %}
+          {% assign cu = c.url | default: "" %}
+          {% if cu != "" %}
+          <a class="convenio" href="{{ cu | relative_url }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span class="convenio-name">{{ c.nombre }}</span><span class="convenio-meta">PDF</span></a>
+          {% else %}
+          <span class="convenio is-pending" title="Enlace pendiente de completar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span class="convenio-name">{{ c.nombre }}</span><span class="convenio-meta">PDF</span></span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    {%- comment -%} Comisiones: se generan desde _data/comisiones.csv {%- endcomment -%}
+    <div id="comision" style="margin-bottom: 3rem;">
+      {% assign comisiones = site.data.comisiones | group_by: "comision" %}
+      {% for g in comisiones %}
+        {% unless forloop.first %}<hr class="section-divider" />{% endunless %}
+        {%- comment -%} Última palabra del nombre en itálica naranja, como el resto de los títulos {%- endcomment -%}
+        {% assign palabras = g.name | split: " " %}
+        {% assign n_antes = palabras.size | minus: 1 %}
+        <h2 class="section-title" style="margin-bottom: 1.5rem;">{% for w in palabras limit: n_antes %}{{ w }} {% endfor %}<em>{{ palabras | last }}</em></h2>
+        <div class="grid grid-3">
+          {% for p in g.items %}
+            {% include person-card.html nombre=p.nombre cargo=p.cargo foto=p.foto %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <hr class="section-divider" />
+
+    <div id="delegados">
+      <h2 class="section-title" style="margin-bottom: 1rem;">Red de <em>Parasitología Argentina</em></h2>
+      <p id="mapa-hint" style="color:var(--text-mid); margin-bottom: 1.25rem; max-width: 620px;">
+        Pasá el mouse por una delegación para ver sus datos de contacto; hacé clic para fijarlos.
+      </p>
+
+      <div class="map-toggle-wrap">
+        <div class="map-toggle" role="group" aria-label="Qué mostrar en el mapa">
+          <button type="button" class="map-toggle-btn is-active" data-mode="delegaciones" aria-pressed="true">Delegaciones Regionales</button>
+          <button type="button" class="map-toggle-btn" data-mode="grupos" aria-pressed="false">Grupos de Investigación</button>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <div id="red-map"
+             data-provincias="{{ '/assets/geo/provincias.json' | relative_url }}"
+             data-partidos="{{ '/assets/geo/partidos-buenos-aires.json' | relative_url }}"></div>
+      </div>
+      <script type="application/json" id="delegaciones-data">{{ site.data.delegaciones | jsonify }}</script>
+      <script type="application/json" id="grupos-data">{{ site.data.grupos | jsonify }}</script>
+
+      <div class="disclosures">
+        <details class="disclosure" id="lista-delegaciones">
+          <summary>
+            <span>Delegaciones Regionales</span>
+            {%- assign pdf_del = site.directorio_delegados_url | default: "" -%}
+            {%- if pdf_del != "" %} <a class="disclosure-link" href="{{ pdf_del | relative_url }}" target="_blank" rel="noopener">(Descargar PDF)</a>{% endif %}
+          </summary>
+          <div class="disclosure-body">
+            {% for d in site.data.delegaciones %}
+              {% unless forloop.first %}<hr class="section-divider" />{% endunless %}
+              <h3 class="group-title">Delegación {{ d.delegacion }}</h3>
+              {% if d.descripcion %}<p class="group-desc">{{ d.descripcion }}</p>{% endif %}
+              <div class="grid grid-3">
+                {% include person-card.html nombre=d.delegado foto=d.foto inst=d.institucion dir=d.direccion email=d.email tel=d.telefono %}
+              </div>
+            {% endfor %}
+          </div>
+        </details>
+
+        <details class="disclosure" id="lista-grupos">
+          <summary>
+            <span>Grupos de Investigación</span>
+            {%- assign pdf_gru = site.directorio_grupos_url | default: "" -%}
+            {%- if pdf_gru != "" %} <a class="disclosure-link" href="{{ pdf_gru | relative_url }}" target="_blank" rel="noopener">(Descargar PDF)</a>{% endif %}
+          </summary>
+          <div class="disclosure-body">
+            <div class="grid grid-3">
+              {% for g in site.data.grupos %}
+                {% capture lugar %}{{ g.ciudad }}{% if g.provincia and g.provincia != g.ciudad %}, {{ g.provincia }}{% endif %}{% endcapture %}
+                {% capture resp %}{% if g.responsable %}Responsable: {{ g.responsable }}{% endif %}{% endcapture %}
+                {% include person-card.html nombre=g.grupo foto=g.foto carpeta="grupos" icon="edificio" inst=g.institucion sub=resp dir=lugar email=g.email web=g.web %}
+              {% endfor %}
+            </div>
+          </div>
+        </details>
+      </div>
+
+      <div class="doc-links">
+        {% include doc-link.html url=site.registro_grupo_url label="Registro de nuevo grupo de investigación" icon="form" %}
+      </div>
+    </div>
+
+  </div>
+</div>

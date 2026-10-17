@@ -1,0 +1,117 @@
+title: "Asociación Parasitológica Argentina"
+description: "Entidad científica sin fines de lucro dedicada a la promoción y difusión de la Parasitología en Argentina y el mundo."
+url: "https://apargentina.org.ar"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+email: secretaria@apargentina.org.ar
+revista_url: "http://www.revargparasitologia.com.ar/ojs/index.php/rap"
+
+# Redes sociales (footer). Si un valor queda vacío (""), el botón no se muestra.
+instagram_url: "https://www.instagram.com/asocparasitologicaargentina/"            # Instagram de la APA
+revista_instagram_url: "https://www.instagram.com/revargparasitologia/"    # Instagram de la Revista
+facebook_url: "https://www.facebook.com/share/1WZXD5F2YC/"             # Facebook de la APA
+
+# Documentos y formularios (La Asociación). Vacío ("") = el link se ve atenuado y sin destino.
+# Acepta una URL completa o la ruta de un PDF subido al sitio, ej. "/assets/docs/estatutos.pdf"
+estatutos_url: ""
+directorio_delegados_url: "/assets/docs/directorio-delegados.pdf"
+directorio_grupos_url: "/assets/docs/directorio-grupos.pdf"
+registro_grupo_url: ""           # Google Form
+
+# Convenios (La Asociación): un badge por convenio, en este orden.
+# url: PDF subido a assets/docs/ (ej. "/assets/docs/convenio-x.pdf") o link completo. Vacío ("") = badge sin link.
+convenios:
+  - nombre: "Convenio 1 (completar)"
+    url: ""
+  - nombre: "Convenio 2 (completar)"
+    url: ""
+  - nombre: "Convenio 3 (completar)"
+    url: ""
+
+# Asociate: valores de membresía. Todo se edita acá.
+# Un formulario vacío ("") deja el botón atenuado y sin destino.
+asociate:
+  vigencia: "15/06/26"            # "Valores vigentes desde ..."
+  periodo: "cuota anual"          # texto bajo el precio
+  form_socios: ""                 # Google Form para Socios
+  form_nuevos: ""                 # Google Form para Nuevos Socios
+  categorias:                     # una tarjeta por categoría, en este orden
+    - nombre: "Profesionales"
+      socios: "$50.000"
+      nuevos: "$35.000"
+    - nombre: "Estudiantes de Posgrado / Becarios/as"
+      socios: "$35.000"
+      nuevos: "$25.000"
+    - nombre: "Estudiantes de Grado"
+      socios: "$20.000"
+      nuevos: "$15.000"
+
+# Contacto: cada área con su correo. Se muestran en este orden.
+# icono: presidencia | secretaria | tesoreria | difusion | convocatorias
+contactos:
+  - area: "Presidencia"
+    descripcion: "Consultas sobre la Asociación"
+    email: "presidencia@apargentina.org.ar"
+    icono: "presidencia"
+  - area: "Secretaría"
+    descripcion: "Consultas generales y nuevos socios"
+    email: "secretaria@apargentina.org.ar"
+    icono: "secretaria"
+  - area: "Tesorería"
+    descripcion: "Pago de cuotas y de artículos de la Revista"
+    email: "tesoreria@apargentina.org.ar"
+    icono: "tesoreria"
+  - area: "Difusión"
+    descripcion: "Prensa y novedades"
+    email: "difusion@apargentina.org.ar"
+    icono: "difusion"
+  - area: "Convocatorias"
+    descripcion: "Presentación de solicitudes"
+    email: "convocatorias@apargentina.org.ar"
+    icono: "convocatorias"
+
+# Navegación — aprobada por el equipo.
+# "Revista" no es un ítem de nav: vive como link externo desde Inicio
+# (tiene su propio sitio). "Delegados" vive dentro de La Asociación.
+# "Asociate" ya no es un ítem de nav: es el botón (CTA) al lado del menú,
+# definido en _includes/header.html. "Contacto" es una sección nueva
+# (página pendiente: pages/contacto.html).
+nav:
+  - title: "La Asociación"
+    url: "/asociacion/"
+  - title: "Eventos"
+    url: "/eventos/"
+  - title: "Formación y Convocatorias"
+    url: "/formacion-convocatorias/"
+  - title: "Contacto"
+    url: "/contacto/"

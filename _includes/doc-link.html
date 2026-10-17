@@ -1,0 +1,17 @@
+{%- comment -%}
+  Link a un documento. Parámetros: url (vacía = pendiente), label, icon ("pdf" o "form").
+  La url puede ser completa (https://...) o una ruta del sitio (/assets/docs/archivo.pdf).
+{%- endcomment -%}
+{%- assign u = include.url | default: "" -%}
+{%- capture icon -%}
+  {%- if include.icon == "form" -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+  {%- else -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+  {%- endif -%}
+{%- endcapture -%}
+{%- if u != "" -%}
+<a class="doc-link" href="{{ u | relative_url }}" target="_blank" rel="noopener">{{ icon }}<span>{{ include.label }}</span></a>
+{%- else -%}
+<span class="doc-link is-pending" title="Enlace pendiente de completar">{{ icon }}<span>{{ include.label }}</span></span>
+{%- endif -%}

@@ -1,25 +1,69 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prueba de despliegue — APA</title>
-  <style>
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #FFF5EE; color: #090201; font-family: system-ui, sans-serif; }
-    main { text-align: center; padding: 2rem; max-width: 34rem; }
-    h1 { font-family: Georgia, serif; font-size: 2rem; margin: 0 0 .5rem; }
-    .ok { display: inline-block; background: #E87838; color: #fff; padding: .35rem 1rem; border-radius: 999px; font-weight: 700; margin-bottom: 1rem; }
-    p { color: #584D36; line-height: 1.6; }
-    code { background: #F1E9DA; padding: .1rem .4rem; border-radius: 6px; }
-  </style>
-</head>
-<body>
-  <main>
-    <span class="ok">✓ Funciona</span>
-    <h1>Asociación Parasitológica Argentina</h1>
-    <p>Si ves esta página, GitHub Pages está publicando el repositorio correctamente.</p>
-    <p>Cargada desde: <code id="host"></code></p>
-  </main>
-  <script>document.getElementById('host').textContent = location.host;</script>
-</body>
-</html>
+---
+layout: default
+title: "Inicio"
+description: "Entidad científica sin fines de lucro dedicada a la Parasitología en Argentina y el mundo."
+---
+
+{%- comment -%}
+  Carrusel: toma automáticamente todas las imágenes de assets/img/homepage_carrousel/
+  (en orden alfabético por nombre de archivo). Si la carpeta está vacía, el carrusel no se muestra.
+{%- endcomment -%}
+{% assign img_exts = ".jpg,.jpeg,.png,.webp,.JPG,.JPEG,.PNG,.WEBP" | split: "," %}
+{% assign slides = site.static_files | where_exp: "f", "f.path contains '/assets/img/homepage_carrousel/'" | where_exp: "f", "img_exts contains f.extname" | sort: "path" %}
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy fade-up">
+      <span class="eyebrow">Nuestra asociación</span>
+      <h1>Parasitología con un enfoque multidisciplinario</h1>
+      <p>Somos una entidad científica sin fines de lucro y con personería jurídica. Reúne a especialistas en parasitología y disciplinas afines.</p>
+      <a href="{{ '/asociacion/' | relative_url }}" class="btn btn-secondary">Conocenos</a>
+    </div>
+
+    {% if slides.size > 0 %}
+    <div class="carousel fade-up" data-carousel role="region" aria-roledescription="carrusel" aria-label="Fotografías de la Asociación">
+      <div class="carousel-track">
+        {% for img in slides %}
+        <figure class="carousel-slide" aria-label="{{ forloop.index }} de {{ slides.size }}">
+          <img src="{{ img.path | relative_url }}" alt="Fotografía {{ forloop.index }} de la Asociación Parasitológica Argentina" {% unless forloop.first %}loading="lazy"{% endunless %}>
+        </figure>
+        {% endfor %}
+      </div>
+      {% if slides.size > 1 %}
+      <button type="button" class="carousel-btn carousel-btn--prev" aria-label="Foto anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <button type="button" class="carousel-btn carousel-btn--next" aria-label="Foto siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="carousel-dots"></div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section" style="padding-top: 0.5rem;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title">Últimas <em>novedades</em></h2>
+    </div>
+    <div class="grid grid-3">
+      {% for post in site.posts limit:3 %}
+      <a href="{{ post.url | relative_url }}" class="fade-up">
+        <article class="card">
+          {% capture img %}{% include img-src.html valor=post.imagen carpeta="noticias" %}{% endcapture %}
+          {% if img != "" %}
+          <div class="card-media"><img src="{{ img | strip }}" alt="{{ post.title }}"></div>
+          {% else %}
+          <div class="card-media card-media--empty" aria-hidden="true"></div>
+          {% endif %}
+          <div class="card-body">
+            {% if post.categories.size > 0 %}<span class="card-tag">{{ post.categories | join: ' · ' }}</span>{% endif %}
+            <h3 class="card-title">{{ post.title }}</h3>
+            <div class="card-date">{{ post.date | date: "%d %b %Y" }}</div>
+            <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+            <span class="card-link">Leer más →</span>
+          </div>
+        </article>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,42 @@
+<header class="site-header">
+  <div class="wrap">
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="APA">
+      <span class="brand-word">Asociación Parasitológica Argentina</span>
+    </a>
+
+    <nav class="desktop-nav">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="is-active"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <a href="{{ site.revista_url }}" target="_blank" rel="noopener">Revista ↗</a>
+    </nav>
+    <a href="{{ '/asociate/' | relative_url }}" class="btn btn-primary desktop-cta">Asociate</a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-overlay">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="nav-overlay" id="nav-overlay">
+  <div class="wrap" style="padding: 0;">
+    <div class="nav-overlay-list">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}">
+          <span>{{ item.title }}</span>
+          <span class="n">0{{ forloop.index }}</span>
+        </a>
+      {% endfor %}
+      <a href="{{ site.revista_url }}" target="_blank" rel="noopener" class="is-external">
+        <span>Revista Argentina de Parasitología</span>
+        <span class="n">↗</span>
+      </a>
+    </div>
+    <a href="{{ '/asociate/' | relative_url }}" class="btn btn-primary">Asociate</a>
+    <div class="nav-overlay-foot">
+      <strong>APA</strong> · Asociación Parasitológica Argentina<br>
+      {{ site.email }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+{%- comment -%}
+  Tarjeta de entrada (post). Parámetros:
+    post   — el post
+    omitir — (opcional) categoría que no se repite en la etiqueta, ej. "Eventos" (comparación estricta)
+  La etiqueta muestra las demás categorías del post separadas por " · ".
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign omit = include.omitir | default: "" -%}
+{%- assign etiquetas = "" -%}
+{%- for c in p.categories -%}
+  {%- if c != omit -%}
+    {%- unless etiquetas == "" -%}{%- assign etiquetas = etiquetas | append: " · " -%}{%- endunless -%}
+    {%- assign etiquetas = etiquetas | append: c -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if etiquetas == "" -%}{%- assign etiquetas = include.omitir | default: p.categories.first -%}{%- endif -%}
+<a href="{{ p.url | relative_url }}" class="fade-up">
+  <article class="card">
+    {% capture img %}{% include img-src.html valor=p.imagen carpeta="noticias" %}{% endcapture %}
+    {% if img != "" %}
+    <div class="card-media"><img src="{{ img | strip }}" alt="{{ p.title | escape }}" loading="lazy"></div>
+    {% else %}
+    <div class="card-media card-media--empty" aria-hidden="true"></div>
+    {% endif %}
+    <div class="card-body">
+      {% if etiquetas != "" %}<span class="card-tag card-tag--fit">{{ etiquetas | escape }}</span>{% endif %}
+      <h3 class="card-title">{{ p.title }}</h3>
+      <div class="card-date">{{ p.date | date: "%d %b %Y" }}</div>
+      <p class="card-excerpt">{{ p.excerpt | strip_html | truncatewords: 20 }}</p>
+      <span class="card-link">Ver detalle →</span>
+    </div>
+  </article>
+</a>

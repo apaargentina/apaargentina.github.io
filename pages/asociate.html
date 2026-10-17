@@ -1,0 +1,58 @@
+---
+layout: page
+permalink: /asociate/
+title: "Asociate"
+label: "Sumate a la APA"
+no_divider: true
+---
+{%- comment -%} Valores, vigencia y formularios: se editan en _config.yml (bloque "asociate"). {%- endcomment -%}
+{%- assign a = site.asociate -%}
+{%- assign f_socios = a.form_socios | default: "" -%}
+{%- assign f_nuevos = a.form_nuevos | default: "" -%}
+
+<div class="section" style="padding-top:0;">
+  <div class="wrap">
+
+    <div class="map-toggle-wrap">
+      <div class="map-toggle" role="group" aria-label="Tipo de socio" data-membership-toggle>
+        <button type="button" class="map-toggle-btn is-active" data-modo="socios" aria-pressed="true">Socios</button>
+        <button type="button" class="map-toggle-btn" data-modo="nuevos" aria-pressed="false">Nuevos Socios</button>
+      </div>
+    </div>
+    {%- if a.vigencia and a.vigencia != "" %}
+    <p class="membership-vigencia">Valores vigentes desde el {{ a.vigencia }}</p>
+    {%- endif %}
+
+    <div id="aranceles" class="membership-grid" data-modo="socios">
+      {%- for c in a.categorias %}
+      <div class="membership-card fade-up">
+        <div class="membership-type">{{ c.nombre }}</div>
+        <div class="membership-price">
+          <span data-show="socios">{{ c.socios }}</span>
+          <span data-show="nuevos">{{ c.nuevos }}</span>
+        </div>
+        <div class="membership-period">{{ a.periodo | default: "por año" }}</div>
+        <div class="membership-cta">
+          <span data-show="socios">
+            {%- if f_socios != "" -%}
+            <a href="{{ f_socios | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">Asociarme</a>
+            {%- else -%}
+            <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">Asociarme</span>
+            {%- endif -%}
+          </span>
+          <span data-show="nuevos">
+            {%- if f_nuevos != "" -%}
+            <a href="{{ f_nuevos | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">Asociarme</a>
+            {%- else -%}
+            <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">Asociarme</span>
+            {%- endif -%}
+          </span>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+
+    <p class="membership-contact">¿Consultas? Escribinos a <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+  </div>
+</div>

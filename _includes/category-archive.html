@@ -1,0 +1,63 @@
+{%- comment -%}
+  Archivo de entradas por categoría, con filtros generados solos. Comparación ESTRICTA:
+  mayúsculas, tildes y espacios cuentan ("Zoología", "zoologia" y "ZOOLOGIA" son tres categorías distintas).
+  Parámetros:
+    categoria — categoría principal, escrita exactamente igual en los posts (ej. "Eventos")
+    vacio     — (opcional) texto cuando no hay entradas
+
+  Los botones salen de las demás categorías de los posts que tienen la categoría principal,
+  en orden alfabético (ignorando mayúsculas y tildes solo para ordenar).
+  Ej.: posts ["Eventos", "Chagas"] y ["Eventos", "Zoología"] -> botones: Todo · Chagas · Zoología.
+{%- endcomment -%}
+{%- assign main = include.categoria -%}
+
+{%- comment -%} Pasada 1: juntar las etiquetas (sin repetir) de los posts de la categoría principal {%- endcomment -%}
+{%- assign claves = "" -%}
+{%- assign acumulado = "" -%}
+{%- assign total = 0 -%}
+{%- for p in site.posts -%}
+  {%- if p.categories contains main -%}
+    {%- assign total = total | plus: 1 -%}
+    {%- for c in p.categories -%}
+      {%- if c != main and c != "" -%}
+        {%- assign marca = "|" | append: c | append: "|" -%}
+        {%- unless claves contains marca -%}
+          {%- assign claves = claves | append: marca -%}
+          {%- assign orden = c | slugify: "latin" -%}
+          {%- assign acumulado = acumulado | append: orden | append: "::" | append: c | append: ";;" -%}
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign etiquetas = acumulado | split: ";;" | sort -%}
+
+{%- if etiquetas.size > 0 %}
+<div class="filters" data-filters>
+  <button class="filter-btn is-active" data-filter="all">Todo</button>
+  {%- for e in etiquetas %}
+  {%- assign partes = e | split: "::" %}
+  <button class="filter-btn" data-filter="{{ partes[1] | escape }}">{{ partes[1] | escape }}</button>
+  {%- endfor %}
+</div>
+{%- endif %}
+
+<div class="grid grid-3">
+  {%- if total > 0 %}
+    {%- for p in site.posts %}
+      {%- if p.categories contains main %}
+      {%- assign tags = "|" -%}
+      {%- for c in p.categories -%}
+        {%- if c != main -%}{%- assign tags = tags | append: c | append: "|" -%}{%- endif -%}
+      {%- endfor %}
+      <div class="archive-item is-visible" data-archive-item="{{ tags | escape }}">
+        {% include post-card.html post=p omitir=main %}
+      </div>
+      {%- endif %}
+    {%- endfor %}
+  {%- else %}
+    <div class="card"><div class="card-body" style="color:var(--muted); font-size:0.88rem;">
+      {{ include.vacio | default: "Todavía no hay entradas en esta sección." }}
+    </div></div>
+  {%- endif %}
+</div>
