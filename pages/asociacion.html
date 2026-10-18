@@ -49,7 +49,7 @@ convenios_estilo: "a"
         <h2 class="section-title" style="margin-bottom: 1.5rem;">{% for w in palabras limit: n_antes %}{{ w }} {% endfor %}<em>{{ palabras | last }}</em></h2>
         <div class="grid grid-3">
           {% for p in g.items %}
-            {% include person-card.html nombre=p.nombre cargo=p.cargo foto=p.foto %}
+            {% include person-card.html nombre=p.nombre cargo=p.cargo sub=p.afiliacion foto=p.foto %}
           {% endfor %}
         </div>
       {% endfor %}

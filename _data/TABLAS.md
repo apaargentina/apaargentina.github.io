@@ -7,7 +7,7 @@ Para varios valores en una misma celda (provincias, mails) se separan con punto 
 
 | Archivo | Qué alimenta | Columnas |
 |---|---|---|
-| `comisiones.csv` | Comisión Directiva y demás comisiones | `comision`, `cargo`, `nombre`, `foto` |
+| `comisiones.csv` | Comisión Directiva y demás comisiones | `comision`, `cargo`, `nombre`, `afiliacion`, `foto` |
 | `delegaciones.csv` | Mapa de delegaciones (polígonos) y su lista | `delegacion`, `descripcion`, `provincias`, `partidos`, `delegado`, `institucion`, `direccion`, `email`, `telefono`, `foto` |
 | `grupos.csv` | Mapa de grupos (puntos) y su lista | `grupo`, `institucion`, `responsable`, `linea`, `ciudad`, `provincia`, `lat`, `lon`, `email`, `web`, `foto` |
 
@@ -57,4 +57,5 @@ en ese caso el PDF anterior se mantiene. Se puede ver en la pestaña **Actions**
 
 - **Comisiones**: aparecen en el orden del archivo; para crear una nueva, escribir un nombre nuevo en `comision`.
   Si `cargo` tiene texto se muestra como píldora (Comisión Directiva); si está vacío, no.
+- **`afiliacion`**: institución de la persona; se muestra debajo del nombre. Puede quedar vacía.
 - **Convenios**: no están en una tabla; se editan en `_config.yml`, bloque `convenios` (nombre y url de cada uno).
