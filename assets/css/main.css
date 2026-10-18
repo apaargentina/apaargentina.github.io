@@ -418,6 +418,11 @@ ul { list-style: none; }
   border: 2px solid rgba(232,120,56,0.3);
   background: var(--surface-subtle);
 }
+/* Variante "panel": foto a sangre a la izquierda (Comisiones) */
+.card.person--panel { padding: 0; align-items: stretch; gap: 0; }
+.card.person--panel .avatar { width: 140px; min-height: 170px; height: auto; align-self: stretch; border-radius: 0; border: 0; }
+.card.person--panel .person-info { padding: 1.2rem 1.3rem; align-self: center; }
+@media (max-width: 480px) { .card.person--panel .avatar { width: 112px; } }
 .avatar--empty { display: flex; align-items: center; justify-content: center; color: var(--muted); }
 .avatar--empty svg { width: 46%; height: 46%; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 

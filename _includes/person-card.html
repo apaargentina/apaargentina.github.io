@@ -1,10 +1,10 @@
 {%- comment -%}
   Tarjeta con foto circular (o ícono) + datos. Parámetros (todos opcionales salvo nombre):
   nombre, cargo (píldora), foto (nombre de archivo, ruta o URL; ver img-src.html), carpeta (por defecto personas),
-  icon ("persona" por defecto, o "edificio"), sub, inst, dir, email (varios separados por ;), tel, web
+  icon ("persona" por defecto, o "edificio"), panel (true = foto a sangre a la izquierda), sub, inst, dir, email (varios separados por ;), tel, web
 {%- endcomment -%}
 {%- assign f = include.foto | default: "" -%}
-<article class="card person fade-up">
+<article class="card person{% if include.panel %} person--panel{% endif %} fade-up">
   {%- if f != "" -%}
     {%- assign carpeta = include.carpeta | default: "personas" -%}
     {%- capture src %}{% include img-src.html valor=f carpeta=carpeta %}{% endcapture -%}
