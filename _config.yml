@@ -92,7 +92,7 @@ contactos:
     email: "secretaria@apargentina.org.ar"
     icono: "secretaria"
   - area: "Tesorería"
-    descripcion: "Pago de cuotas y de artículos de la Revista"
+    descripcion: "Pago de cuotas"
     email: "tesoreria@apargentina.org.ar"
     icono: "tesoreria"
   - area: "Difusión"
