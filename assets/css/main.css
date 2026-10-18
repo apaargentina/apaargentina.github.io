@@ -423,6 +423,11 @@ ul { list-style: none; }
 .card.person--panel .avatar { width: 140px; min-height: 170px; height: auto; align-self: stretch; border-radius: 0; border: 0; }
 .card.person--panel .person-info { padding: 1.2rem 1.3rem; align-self: center; }
 @media (max-width: 480px) { .card.person--panel .avatar { width: 112px; } }
+/* Variante "top": foto panorámica 16:9 a sangre arriba (Grupos de investigación) */
+.card.person--top { flex-direction: column; }
+.card.person--top .avatar { width: 100%; height: auto; min-height: 0; aspect-ratio: 16 / 9; align-self: auto; }
+.card.person--top .avatar--empty svg { width: 18%; height: auto; }
+.card.person--top .person-info { padding: 1.1rem 1.3rem 1.3rem; align-self: stretch; }
 .avatar--empty { display: flex; align-items: center; justify-content: center; color: var(--muted); }
 .avatar--empty svg { width: 46%; height: 46%; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 

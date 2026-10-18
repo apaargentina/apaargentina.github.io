@@ -108,7 +108,7 @@ convenios_estilo: "a"
               {% for g in site.data.grupos %}
                 {% capture lugar %}{{ g.ciudad }}{% if g.provincia and g.provincia != g.ciudad %}, {{ g.provincia }}{% endif %}{% endcapture %}
                 {% capture resp %}{% if g.responsable %}Responsable: {{ g.responsable }}{% endif %}{% endcapture %}
-                {% include person-card.html nombre=g.grupo foto=g.foto carpeta="grupos" icon="edificio" inst=g.institucion sub=resp dir=lugar email=g.email web=g.web panel=true %}
+                {% include person-card.html nombre=g.grupo foto=g.foto carpeta="grupos" icon="edificio" inst=g.institucion sub=resp dir=lugar email=g.email web=g.web panel="top" %}
               {% endfor %}
             </div>
           </div>
