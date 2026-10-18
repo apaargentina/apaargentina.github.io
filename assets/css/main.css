@@ -195,6 +195,7 @@ ul { list-style: none; }
 .btn-secondary { background: transparent; border-color: var(--text-mid); color: var(--text-mid); }
 .btn-secondary:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
 .btn-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero .btn { text-transform: uppercase; letter-spacing: 0.06em; }
 
 /* ── Chips (same font as buttons) ── */
 .chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }

@@ -17,7 +17,10 @@ description: "Entidad científica sin fines de lucro dedicada a la Parasitologí
       <span class="eyebrow">Nuestra asociación</span>
       <h1>Parasitología con un enfoque multidisciplinario</h1>
       <p>Somos una entidad científica sin fines de lucro y con personería jurídica. Reúne a especialistas en parasitología y disciplinas afines.</p>
-      <a href="{{ '/asociacion/' | relative_url }}" class="btn btn-secondary">Conocenos</a>
+      <div class="btn-row">
+        <a href="{{ '/asociacion/' | relative_url }}" class="btn btn-secondary">Conocenos</a>
+        <a href="{{ '/asociate/' | relative_url }}" class="btn btn-primary">Asociate</a>
+      </div>
     </div>
 
     {% if slides.size > 0 %}
