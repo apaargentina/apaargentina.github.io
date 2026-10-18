@@ -25,12 +25,11 @@
       {% for item in site.nav %}
         <a href="{{ item.url | relative_url }}">
           <span>{{ item.title }}</span>
-          <span class="n">0{{ forloop.index }}</span>
         </a>
       {% endfor %}
       <a href="{{ site.revista_url }}" target="_blank" rel="noopener" class="is-external">
         <span>Revista Argentina de Parasitología</span>
-        <span class="n">↗</span>
+        <svg class="ext-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>
       </a>
     </div>
     <a href="{{ '/asociate/' | relative_url }}" class="btn btn-primary">Asociate</a>

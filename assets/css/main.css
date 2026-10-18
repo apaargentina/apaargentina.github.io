@@ -135,7 +135,7 @@ ul { list-style: none; }
 .menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
 .menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
-.desktop-nav, .desktop-cta { display: none; }
+.desktop-nav, .btn.desktop-cta { display: none; }
 
 /* Mobile / tablet full-screen nav overlay */
 .nav-overlay {
@@ -152,7 +152,7 @@ ul { list-style: none; }
 .nav-overlay-list { display: flex; flex-direction: column; margin-top: 8px; }
 .nav-overlay-list a {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   padding: 16px 2px;
   border-bottom: 1px solid var(--border);
@@ -161,14 +161,10 @@ ul { list-style: none; }
   font-size: 19px;
   color: var(--text);
 }
-.nav-overlay-list a .n {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  color: var(--muted);
-  font-weight: 400;
-}
-.nav-overlay-list a.is-external { color: var(--text-mid); font-size: 15px; font-family: var(--font-body); }
+.nav-overlay-list a .ext-icon { width: 22px; height: 22px; flex: none; margin-left: 12px; fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .nav-overlay .btn { margin-top: 20px; }
+/* Botón Asociate: mismo tamaño y estilo en móvil y escritorio */
+.btn.desktop-cta, .nav-overlay .btn { width: 168px; font-size: 13px; line-height: 1.65; padding: 12px 14px; text-transform: uppercase; letter-spacing: 0.06em; }
 .nav-overlay-foot {
   margin-top: auto;
   padding-top: 20px;
@@ -578,13 +574,7 @@ a.convenio:hover { color: var(--accent); }
   .desktop-nav { display: flex; align-items: center; gap: 26px; }
   .desktop-nav a { font-family: var(--font-body); font-weight: 600; font-size: 13.5px; color: var(--text-mid); }
   .desktop-nav a:hover, .desktop-nav a.is-active { color: var(--accent); }
-  .desktop-cta {
-    display: inline-flex;
-    font-size: 20px;
-    text-transform: uppercase;
-    line-height: 1;       /* sin esto, 20px heredaría 1.65 y el botón crecería */
-    padding: 11px 14px;   /* antes 12px 14px → ~48px de alto, ahora ~45px */
-  }
+  .btn.desktop-cta { display: inline-flex; }
 
   .site-header .wrap { height: 76px; }
   :root { --header-h: 76px; --btn-w: 190px; }
