@@ -70,3 +70,42 @@ description: "Entidad científica sin fines de lucro dedicada a la Parasitologí
     </div>
   </div>
 </section>
+
+{%- comment -%}
+  Archivo: todos los posts salvo los 3 más recientes (que ya están arriba), con botones por año.
+  Los años se generan solos desde las fechas de los posts; el más reciente queda seleccionado.
+  Si hay 3 posts o menos, la sección no aparece.
+{%- endcomment -%}
+{%- if site.posts.size > 3 -%}
+{%- assign anios = "" -%}
+{%- for post in site.posts offset:3 -%}
+  {%- assign y = post.date | date: "%Y" -%}
+  {%- unless anios contains y -%}{%- assign anios = anios | append: y | append: "," -%}{%- endunless -%}
+{%- endfor -%}
+{%- assign lista_anios = anios | split: "," -%}
+<section class="section archivo" id="archivo" data-archivo style="padding-top: 0.5rem;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title">Archivo</h2>
+    </div>
+    <div class="year-tabs" role="tablist" aria-label="Año de publicación">
+      {%- for a in lista_anios %}
+      <button type="button" class="year-tab{% if forloop.first %} is-active{% endif %}" role="tab" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" data-year="{{ a }}">{{ a }}</button>
+      {%- endfor %}
+    </div>
+    <div class="timeline">
+      {%- for post in site.posts offset:3 %}
+      <a class="timeline-item" data-year="{{ post.date | date: '%Y' }}" href="{{ post.url | relative_url }}">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-meta">
+          {%- capture fecha %}{% include fecha-corta.html fecha=post.date %}{% endcapture %}
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ fecha | strip }}</time>
+          {%- if post.categories.size > 0 %}<span class="card-tag">{{ post.categories | join: ' · ' }}</span>{% endif %}
+        </div>
+        <span class="timeline-title">{{ post.title }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

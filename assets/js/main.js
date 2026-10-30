@@ -157,4 +157,23 @@ document.addEventListener('DOMContentLoaded', () => {
     applyFilter('all');
   }
 
+
+  // ── Homepage: Archivo (pestañas por año) ──────────────────────────
+  const archivo = document.querySelector('[data-archivo]');
+  if (archivo) {
+    const tabs = archivo.querySelectorAll('.year-tab');
+    const posts = archivo.querySelectorAll('.timeline-item');
+    const showYear = (year) => {
+      posts.forEach(p => p.classList.toggle('is-visible', p.dataset.year === year));
+      tabs.forEach(t => {
+        const on = t.dataset.year === year;
+        t.classList.toggle('is-active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+    };
+    tabs.forEach(t => t.addEventListener('click', () => showYear(t.dataset.year)));
+    archivo.classList.add('is-ready'); // sin JavaScript se muestran todos los años
+    if (tabs.length) showYear(tabs[0].dataset.year);
+  }
+
 });
