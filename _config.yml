@@ -39,7 +39,7 @@ revista_url: "http://www.revargparasitologia.com.ar/ojs/index.php/rap"
 # Redes sociales (footer). Si un valor queda vacío (""), el botón no se muestra.
 instagram_url: "https://www.instagram.com/asocparasitologicaargentina/"            # Instagram de la APA
 revista_instagram_url: "https://www.instagram.com/revargparasitologia/"    # Instagram de la Revista
-facebook_url: "https://www.facebook.com/share/1WZXD5F2YC/"             # Facebook de la APA
+facebook_url: ""             # Facebook de la APA
 
 # Documentos y formularios (La Asociación). Vacío ("") = el link se ve atenuado y sin destino.
 # Acepta una URL completa o la ruta de un PDF subido al sitio, ej. "/assets/docs/estatutos.pdf"
