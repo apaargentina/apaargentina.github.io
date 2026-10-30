@@ -1,4 +1,4 @@
-r---
+---
 layout: post
 title: "La Revista Argentina de Parasitología ya tiene reglamento para su Comité Editorial"
 date: 2018-07-18
