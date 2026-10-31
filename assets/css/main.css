@@ -654,3 +654,9 @@ a.convenio:hover { color: var(--accent); }
 .timeline-title { display: block; margin-top: 0.4rem; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; line-height: 1.35; color: var(--text); transition: color var(--transition); }
 .timeline-item:hover .timeline-title { color: var(--accent); }
 .timeline-item:hover .timeline-dot { background: var(--accent); }
+
+/* ── Tablas dentro de los posts (Markdown) ── */
+.post-content table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 0 0 1.5rem; font-size: 0.9rem; }
+.post-content th, .post-content td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; color: var(--text-mid); }
+.post-content th { background: var(--surface-subtle); color: var(--text); font-weight: 700; }
+.post-content tbody tr:nth-child(even) { background: rgba(241, 233, 218, 0.35); }
