@@ -2,7 +2,7 @@
 layout: post
 title: "Curso de posgrado: Parásitos y patologías de moluscos"
 date: 2019-06-28
-categories: ["Curso"]
+categories: ["Formación y Convocatorias", "Curso"]
 imagen: gills_fish.jpg        # opcional, va en assets/img/noticias/
 excerpt: "En diciembre se dictará en Bahía Blanca el curso de posgrado Parásitos y patologías de moluscos en la Universidad Nacional del Sur."
 ---
