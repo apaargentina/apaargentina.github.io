@@ -21,6 +21,14 @@ En el área de parasitología, el programa abordará, entre otros temas:
 
 También habrá un bloque de microbiología y talleres sobre filogenia de la leishmaniasis, diagnóstico diferencial de malaria y bioética.
 
+**Aranceles**
+
+| Categoría | Hasta el 31/08/2019 | Desde el 01/09/2019 |
+|---|:---:|:---:|
+| Estudiantes | USD 100 | USD 120 |
+| Profesionales | USD 250 | USD 300 |
+| Socios APMYP / Infectólogos | USD 225 | USD 275 |
+
 Más información en la [página web del congreso](https://www.apmypdepanama.com) y en el [flyer del congreso](/assets/docs/AFICHE_MICROBIOLOGIA_ABRIL_2019.pdf). Por consultas se puede escribir a **asoc.p.mp@gmail.com**
 
 Como sociedad miembro de la FLAP, la APA invita a sus socios a participar de este importante encuentro regional.
