@@ -1,0 +1,7 @@
+{%- comment -%}
+  Fecha larga en español, ej. "12 de julio de 2024". Parámetro: fecha (una fecha de Jekyll, ej. page.date).
+  Jekyll escribe los meses en inglés; por eso se arma a mano con esta lista.
+{%- endcomment -%}
+{%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
+{%- assign i = include.fecha | date: "%-m" | minus: 1 -%}
+{{- include.fecha | date: "%-d" }} de {{ meses[i] }} de {{ include.fecha | date: "%Y" -}}

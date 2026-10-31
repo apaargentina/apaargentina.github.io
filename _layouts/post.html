@@ -8,7 +8,7 @@ layout: default
     <h1 class="page-header-title">{{ page.title }}</h1>
     <p class="page-header-desc">
       <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted);">
-        {{ page.date | date: "%d de %B de %Y" }}
+        {% capture fecha %}{% include fecha-larga.html fecha=page.date %}{% endcapture %}{{ fecha | strip }}
       </span>
     </p>
   </div>
