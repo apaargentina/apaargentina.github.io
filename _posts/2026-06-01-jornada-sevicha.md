@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "II Jornada Federal SeVICha – '"Chagas"' congénito y en embarazadas"
+title: "II Jornada Federal SeVICha – 'Chagas' congénito y en embarazadas"
 date: 2026-06-01
 categories: ["Formación y Convocatorias", "Convocatoria", "Chagas"]
 imagen: /assets/img/noticias/sevicha-2026.jpg
