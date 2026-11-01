@@ -5,6 +5,7 @@ date: 2020-03-03
 categoria: "Novedades"
 tipo: "In Memoriam"
 excerpt: "Falleció el 14 de enero de 2020. Sus investigaciones fueron fundamentales para conocer la diversidad de los cestodes de peces en Argentina."
+imagen: 2020-03-in-memoriam-ivanov.jpg
 ---
 
 El 14 de enero de 2020 falleció en Buenos Aires la **Dra. Verónica A. Ivanov** (1967-2020), luego de luchar contra una larga enfermedad. Su partida es una gran pérdida para la ciencia argentina.
