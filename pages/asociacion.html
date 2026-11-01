@@ -120,5 +120,34 @@ convenios_estilo: "a"
       </div>
     </div>
 
+    {%- comment -%} Parasitología en el Mundo: se genera desde el bloque "instituciones" de _config.yml {%- endcomment -%}
+    <hr class="section-divider" />
+
+    <div id="mundo">
+      <h2 class="section-title" style="margin-bottom: 1.5rem;">Parasitología en el <em>Mundo</em></h2>
+      <div class="instituciones">
+        {%- for i in site.instituciones %}
+          {%- assign iu = i.url | default: "" -%}
+          {%- assign il = i.logo | default: "" -%}
+          {%- assign dominio = iu | remove: "https://" | remove: "http://" | remove: "www." | split: "/" | first -%}
+          {%- capture interior -%}
+            {%- if il != "" -%}
+              {%- capture logo_src %}{% include img-src.html valor=il carpeta="instituciones" %}{% endcapture -%}
+              <span class="inst-logo"><img src="{{ logo_src | strip }}" alt="" loading="lazy"></span>
+            {%- else -%}
+              <span class="inst-logo inst-logo--sigla" aria-hidden="true">{{ i.sigla }}</span>
+            {%- endif -%}
+            <span class="inst-text"><span class="inst-name">{{ i.nombre }}</span>{% if dominio %}<span class="inst-dom">{{ dominio }}</span>{% endif %}</span>
+            {%- if iu != "" -%}<svg class="inst-ext" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>{%- endif -%}
+          {%- endcapture -%}
+          {%- if iu != "" %}
+        <a class="inst" href="{{ iu }}" target="_blank" rel="noopener">{{ interior }}</a>
+          {%- else %}
+        <span class="inst is-pending" title="Enlace pendiente de completar">{{ interior }}</span>
+          {%- endif %}
+        {%- endfor %}
+      </div>
+    </div>
+
   </div>
 </div>

@@ -62,6 +62,35 @@ convenios:
   - nombre: "Asociación Argentina de Microbiología (AAM)"
     url: "/assets/docs/CONVENIO-APA-AAM.pdf"
 
+# Parasitología en el Mundo (La Asociación): sociedades e instituciones relacionadas, en este orden.
+# nombre: nombre completo. sigla: se muestra mientras no haya logo. url: sitio web (link completo).
+# logo: nombre del archivo subido a assets/img/instituciones/ (ej. "asp.png"). Vacío ("") = se muestra la sigla.
+instituciones:
+  - nombre: "American Society of Parasitologists"
+    sigla: "ASP"
+    url: "https://www.amsocparasit.org/"
+    logo: "asp.png"
+  - nombre: "World Federation of Parasitologists"
+    sigla: "WFP"
+    url: "https://wfpnet.org/"
+    logo: "wfp.png"
+  - nombre: "European Association of Fish Pathologists"
+    sigla: "EAFP"
+    url: "https://www.eafp.org/"
+    logo: "eafp.png"
+  - nombre: "Asociación Argentina de Zoonosis"
+    sigla: "AAZ"
+    url: "https://www.aazoonosis.org.ar/"
+    logo: "aazoonosis.jpg"
+  - nombre: "Asociación Bioquímica Argentina"
+    sigla: "ABA"
+    url: "https://www.aba-online.org.ar/"
+    logo: "aba.png"
+  - nombre: "Asociación Médica Argentina"
+    sigla: "AMA"
+    url: "https://www.ama-med.org.ar/"
+    logo: "ama.png"
+
 # Asociate: valores de membresía. Todo se edita acá.
 # Un formulario vacío ("") deja el botón atenuado y sin destino.
 asociate:

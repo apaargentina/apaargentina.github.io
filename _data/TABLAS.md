@@ -39,6 +39,7 @@ Subir la imagen a la carpeta del tipo y escribir **solo el nombre del archivo** 
 |---|---|---|
 | `delegaciones.csv`, `comisiones.csv` | `assets/img/personas/` | `espinoza.jpg` |
 | `grupos.csv` | `assets/img/grupos/` | `lab-parasitologia.jpg` |
+| `instituciones` (bloque de `_config.yml`, ver más abajo) | `assets/img/instituciones/` | `asp.png` |
 
 - Si la foto está en otra carpeta, escribir la ruta desde la raíz del sitio (ej. `assets/img/otra/foto.jpg`).
   También se acepta una URL de imagen.
@@ -59,3 +60,7 @@ en ese caso el PDF anterior se mantiene. Se puede ver en la pestaña **Actions**
   Si `cargo` tiene texto se muestra como píldora (Comisión Directiva); si está vacío, no.
 - **`afiliacion`**: institución de la persona; se muestra debajo del nombre. Puede quedar vacía.
 - **Convenios**: no están en una tabla; se editan en `_config.yml`, bloque `convenios` (nombre y url de cada uno).
+- **Parasitología en el Mundo** (logos de sociedades e instituciones, al final de La Asociación): tampoco tiene tabla; se edita en
+  `_config.yml`, bloque `instituciones`. Cada una lleva `nombre`, `sigla` (se muestra si no hay logo), `url` (link completo al sitio)
+  y `logo` (solo el nombre del archivo, subido a `assets/img/instituciones/`). Si `logo` queda vacío (`""`), se muestran las siglas.
+  Si el archivo es SVG, escribir `.svg` en vez de `.png` en `logo`. Conviene logos con fondo transparente, de unos 300 px de ancho.
