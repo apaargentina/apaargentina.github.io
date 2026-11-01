@@ -6,6 +6,7 @@ categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "La Triple Frontera recibirá a la parasitología argentina del 7 al 9 de mayo de 2025. Ya se conoce el logo oficial del congreso."
+imagen: XCAP.png
 ---
 
 ¡Reservá la fecha! El **X Congreso Argentino de Parasitología (X CAP)** se realizará del **7 al 9 de mayo de 2025** en **Puerto Iguazú, Misiones**.
