@@ -5,6 +5,7 @@ date: 2020-10-27
 categoria: "Novedades"
 tipo: "Revista Argentina de Parasitología"
 excerpt: "Ya se puede leer la última edición de la revista científica de la APA. La convocatoria para enviar artículos sigue abierta."
+imagen: RAP-VolVIII-2-2020.png
 ---
 
 Ya está disponible el **volumen 9, número 2** de la **Revista Argentina de Parasitología (RAP)**, el órgano oficial de difusión científica de la Asociación Parasitológica Argentina.
