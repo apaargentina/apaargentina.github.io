@@ -5,6 +5,7 @@ date: 2023-03-30
 categoria: "Formación y Convocatorias"
 tipo: "Curso"
 excerpt: "Una semana intensiva para aprender a usar los parásitos como marcadores naturales de peces y otros hospedadores. Se dicta en julio en la UNMdP y el cupo es de 20 personas."
+imagen: 2025-01-23-Ecoparasitaria.png
 ---
 
 La Escuela de Posgrado de la Facultad de Ciencias Exactas y Naturales de la **Universidad Nacional de Mar del Plata** vuelve a ofrecer el curso **«Ecología Parasitaria Aplicada»**, esta vez en **modalidad presencial**, durante **una semana de julio de 2023**.
