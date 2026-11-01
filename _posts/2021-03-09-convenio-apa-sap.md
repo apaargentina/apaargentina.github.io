@@ -19,4 +19,4 @@ Quienes tengan la cuota al día en su asociación accederán a aranceles prefere
 
 Además, ambas sociedades se comprometen a promover actividades conjuntas de docencia, investigación, transferencia y gestión.
 
-[Leé el convenio completo aquí](/assets/docs/convenio-apa-sap.pdf)
+[Leé el convenio completo aquí](/assets/docs/CONVENIO-APA-SAP.pdf)
