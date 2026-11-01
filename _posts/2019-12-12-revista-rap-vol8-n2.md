@@ -5,6 +5,7 @@ date: 2019-12-12
 categoria: "Novedades"
 tipo: "Revista Argentina de Parasitología"
 excerpt: "Salió el volumen 8, número 2 de la revista oficial de la APA. Además, ya está abierta la recepción de artículos para los próximos números."
+imagen: RAP-VolVII-2-2018.png
 ---
 
 Ya se puede leer el **volumen 8, número 2** de la **Revista Argentina de Parasitología (RAP)**, el órgano oficial de difusión científica de la Asociación Parasitológica Argentina.
