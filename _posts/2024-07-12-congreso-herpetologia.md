@@ -6,6 +6,7 @@ categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["Herpetología"]
 excerpt: "Anfibios y reptiles serán protagonistas del 1 al 4 de octubre de 2024 en Corrientes. Un encuentro de interés para quienes estudian sus parásitos."
+imagen: 2024-07-12-congreso-herpetologia.jpg
 ---
 
 Del **1 al 4 de octubre de 2024**, la ciudad de **Corrientes** será sede del **XXIV Congreso Argentino de Herpetología**, el principal encuentro del país dedicado al estudio de anfibios y reptiles.
