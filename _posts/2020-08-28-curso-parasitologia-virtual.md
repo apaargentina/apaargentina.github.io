@@ -3,7 +3,7 @@ layout: post
 title: "Curso virtual de posgrado sobre helmintos zoonóticos de Argentina"
 date: 2020-08-28
 categories: ["Formación y Convocatorias", "Curso"]
-imagen: 2020-08-curso-parasitologia-virtual.jpg
+imagen: 
 excerpt: "Parásitos, animales, humanos y ambiente: un curso de la Universidad Nacional del Comahue con especialistas de todo el país. Se dicta del 2 al 27 de noviembre, con preinscripción hasta el 20 de septiembre."
 ---
 
