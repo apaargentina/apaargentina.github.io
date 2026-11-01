@@ -2,7 +2,7 @@
 layout: post
 title: "El X Congreso Argentino de Parasitología será en Puerto Iguazú en mayo de 2025"
 date: 2024-07-04
-categories: ["Eventos", "Congreso", "X CAP"]
+categories: ["Eventos", "Congreso"]
 imagen: 2024-07-congreso-x-cap.jpg
 excerpt: "La Triple Frontera recibirá a la parasitología argentina del 7 al 9 de mayo de 2025. Ya se conoce el logo oficial del congreso."
 ---
