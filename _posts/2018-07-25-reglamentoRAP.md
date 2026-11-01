@@ -2,7 +2,7 @@
 layout: post
 title: "La Revista Argentina de Parasitología ya tiene reglamento para su Comité Editorial"
 date: 2018-07-18
-categories: ["Novedades", "Revista"]
+categories: ["Novedades", "Revista Argentina de Parasitología"]
 imagen:        # opcional, va en assets/img/noticias/
 excerpt: "La APA aprobó el Reglamento del Comité Editorial de la Revista Argentina de Parasitología. El documento regula aspectos del funcionamiento de la revista que no estaban contemplados en el Estatuto."
 ---
