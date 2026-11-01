@@ -6,6 +6,7 @@ categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "La inscripción temprana vence el 30 de noviembre y las propuestas de cursos y simposios se reciben hasta el 19 de diciembre."
+imagen: XCAP.png
 ---
 
 Se acerca el **X Congreso Argentino de Parasitología**, que se realizará del **7 al 9 de mayo de 2025 en Puerto Iguazú, Misiones**. Estas son las fechas que conviene agendar:
