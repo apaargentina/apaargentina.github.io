@@ -5,10 +5,9 @@ title: "Asociate"
 label: "Sumate a la APA"
 no_divider: true
 ---
-{%- comment -%} Valores, vigencia y formularios: se editan en _config.yml (bloque "asociate"). {%- endcomment -%}
+{%- comment -%} Valores, vigencia y link del formulario: se editan en _config.yml (bloque "asociate"). {%- endcomment -%}
 {%- assign a = site.asociate -%}
-{%- assign f_socios = a.form_socios | default: "" -%}
-{%- assign f_nuevos = a.form_nuevos | default: "" -%}
+{%- assign formulario = a.formulario | default: "" -%}
 
 <div class="section" style="padding-top:0;">
   <div class="wrap">
@@ -33,20 +32,11 @@ no_divider: true
         </div>
         <div class="membership-period">{{ a.periodo | default: "por año" }}</div>
         <div class="membership-cta">
-          <span data-show="socios">
-            {%- if f_socios != "" -%}
-            <a href="{{ f_socios | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">Asociarme</a>
-            {%- else -%}
-            <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">Asociarme</span>
-            {%- endif -%}
-          </span>
-          <span data-show="nuevos">
-            {%- if f_nuevos != "" -%}
-            <a href="{{ f_nuevos | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">Asociarme</a>
-            {%- else -%}
-            <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">Asociarme</span>
-            {%- endif -%}
-          </span>
+          {%- if formulario != "" -%}
+          <a href="{{ formulario | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">Asociarme</a>
+          {%- else -%}
+          <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">Asociarme</span>
+          {%- endif -%}
         </div>
       </div>
       {%- endfor %}

@@ -96,8 +96,7 @@ instituciones:
 asociate:
   vigencia: "15/06/26"            # "Valores vigentes desde ..."
   periodo: "cuota anual"          # texto bajo el precio
-  form_socios: ""                 # Google Form para Socios
-  form_nuevos: ""                 # Google Form para Nuevos Socios
+  formulario: "https://forms.gle/7gY3ge9ZPBqPAuiq8"   # Google Form (sirve para socios y nuevos socios)
   categorias:                     # una tarjeta por categoría, en este orden
     - nombre: "Profesionales"
       socios: "$50.000"
