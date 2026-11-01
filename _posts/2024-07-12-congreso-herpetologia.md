@@ -1,28 +1,16 @@
 ---
 layout: post
-title: "XXIV Congreso Argentino de Herpetología"
+title: "XXIV Congreso Argentino de Herpetología en Corrientes"
 date: 2024-07-12
 categories: ["Eventos", "Congreso", "Herpetología"]
-imagen: herpe-image-12.png        # opcional, va en assets/img/noticias/
-excerpt: "Información sobre el XXIV Congreso Argentino de Herpetología"
+imagen: 2024-07-congreso-herpetologia.jpg
+excerpt: "Anfibios y reptiles serán protagonistas del 1 al 4 de octubre de 2024 en Corrientes. Un encuentro de interés para quienes estudian sus parásitos."
 ---
 
-Desde el 1 al 4 octubre se realizará el XXIV Congreso Argentino de Herpetología.
+Del **1 al 4 de octubre de 2024**, la ciudad de **Corrientes** será sede del **XXIV Congreso Argentino de Herpetología**, el principal encuentro del país dedicado al estudio de anfibios y reptiles.
 
-Este evento tendrá lugar en la Facultad de Ciencias Exactas y Naturales y Agrimensura, Campus Deodoro Roca, de la Universidad Nacional del Nordeste, Corrientes.
+La APA difunde este congreso por su interés para quienes investigan a los parásitos de estos grupos de vertebrados.
 
-Durante estos días destacados herpetólogos nacionales e internacionales compartirán sus investigaciones y experiencias a través de conferencias magistrales, cursos, talleres y presentaciones en modalidad oral y póster. 
+![Logo del XXIV Congreso Argentino de Herpetología](/assets/img/noticias/2024-07-congreso-herpetologia.jpg)
 
-Para más información pueden acceder a los links indicados abajo.
-
-![banner congreso](header_herpetologia.png)
-
-¡No se lo pierdan!
-
-[Sitio web del Congreso](https://exa.unne.edu.ar/Congreso%20de%20Herpetologia/)
-
-[Primera Circular](https://exa.unne.edu.ar/docs/2024/XXIVCAH%201ra%20Circular.pdf)
-
-[Segunda Circular](https://exa.unne.edu.ar/docs/2024/XXIVCAH%202da%20Circular.pdf)
-
-[Tercera Circular](https://exa.unne.edu.ar/docs/2024/XXIVCAH%203ra%20circular.pdf)
+[Más información en la página del congreso](https://exa.unne.edu.ar/Congreso%20de%20Herpetologia/)
