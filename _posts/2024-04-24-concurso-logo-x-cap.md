@@ -6,6 +6,7 @@ categoria: "Formación y Convocatorias"
 tipo: "Concurso"
 tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "El diseño ganador será la imagen oficial del congreso y su autor tendrá la inscripción temprana de regalo. Las propuestas se reciben hasta el 30 de mayo."
+imagen: XCAP.png
 ---
 
 La Comisión Organizadora Local del **X Congreso Argentino de Parasitología (X CAP)**, que se realizará en **Iguazú en 2025**, invita a participar del concurso para diseñar el **logo oficial del congreso**.
