@@ -5,6 +5,7 @@ date: 2019-12-16
 categoria: "Novedades"
 tipo: "Cuota Societaria"
 excerpt: "Quienes se asocien desde enero tendrán un 20 % de descuento, y un 30 % si lo hacen en grupo de tres o más personas. También hay plazos para regularizar deudas."
+imagen: Pago-cuota.png
 ---
 
 La Asociación Parasitológica Argentina informa los **valores de la cuota societaria para 2020**:
