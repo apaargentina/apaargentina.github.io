@@ -2,7 +2,7 @@
 layout: post
 title: "X CAP: el calendario con las fechas clave para participar del congreso"
 date: 2024-11-22
-categories: ["Eventos", "Congreso", "X CAP"]
+categories: ["Eventos", "Congreso"]
 imagen: 2024-11-congreso-x-cap-extension-fechas.jpg
 excerpt: "La inscripción temprana vence el 30 de noviembre y las propuestas de cursos y simposios se reciben hasta el 19 de diciembre."
 ---
