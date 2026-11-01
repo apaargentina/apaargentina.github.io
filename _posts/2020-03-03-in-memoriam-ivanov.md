@@ -3,7 +3,7 @@ layout: post
 title: "Despedimos a la Dra. Verónica Ivanov, referente en el estudio de cestodes acuáticos"
 date: 2020-03-03
 categories: ["Novedades", "In memoriam"]
-imagen: 2020-03-in-memoriam-ivanov.jpg
+imagen: 
 excerpt: "Falleció el 14 de enero de 2020. Sus investigaciones fueron fundamentales para conocer la diversidad de los cestodes de peces en Argentina."
 ---
 
