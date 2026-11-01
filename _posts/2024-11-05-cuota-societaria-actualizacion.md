@@ -5,6 +5,7 @@ date: 2024-11-05
 categoria: "Novedades"
 tipo: "Cuota Societaria"
 excerpt: "Hasta el 28 de febrero de 2025, quienes se asocien por primera vez pagan menos. La cuota profesional queda en $30.000."
+imagen: Pago-cuota.png
 ---
 
 La Asociación Parasitológica Argentina informa la **actualización de la cuota societaria 2024/2025**, vigente **hasta el 28 de febrero de 2025**.
