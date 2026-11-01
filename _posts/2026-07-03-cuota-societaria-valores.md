@@ -5,6 +5,7 @@ date: 2026-07-03
 categoria: "Novedades"
 tipo: "Cuota Societaria"
 excerpt: "La cuota profesional queda en $50.000, y quienes se asocien por primera vez pagan $35.000. También hay valores reducidos para estudiantes."
+imagen: Pago-cuota.png
 ---
 
 La Asociación Parasitológica Argentina informa la **actualización de la cuota societaria 2026**, vigente **desde el 15 de junio de 2026**.
