@@ -5,15 +5,16 @@ title: "La Asociación"
 label: "Institucional"
 description: "La Asociación Parasitológica Argentina (APA) es una entidad científica sin fines de lucro, con Personería Jurídica desde 2008, dedicada a la promoción, difusión y asesoramiento en Parasitología con un enfoque multidisciplinario, desde Argentina para el mundo."
 use_map: true
-# Estilo de los badges de Convenios (exploración): "a" = píldora, "b" = ficha, "c" = etiqueta.
-# Cambiá la letra, publicá, y mirá cuál funciona mejor.
-convenios_estilo: "a"
 ---
 
 <div class="section" style="padding-top:0;">
   <div class="wrap">
 
     <div class="post-content">
+      <p id="personeria">
+        La APA tiene Personería Jurídica, CUIT 30-71051474-3, desde el 8 de febrero de 2008
+        (Folio de inscripción 24264; Resolución DPPJ 0113, del 7 de febrero de 2008).
+      </p>
       <p>
         Somos miembros de la World Federation of Parasitologists (WFP) y de la Federación Latinoamericana de
         Parasitología (FLAP).
@@ -26,13 +27,13 @@ convenios_estilo: "a"
 
     <div class="post-content" id="convenios" style="margin-bottom: 3rem;">
       <h2>Convenios</h2>
-      <div class="convenios convenios--{{ page.convenios_estilo | default: 'a' }}">
+      <div class="convenios">
         {% for c in site.convenios %}
           {% assign cu = c.url | default: "" %}
           {% if cu != "" %}
-          <a class="convenio" href="{{ cu | relative_url }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span class="convenio-name">{{ c.nombre }}</span><span class="convenio-meta">PDF</span></a>
+          <a class="convenio" href="{{ cu | relative_url }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span class="convenio-name">{{ c.nombre }}</span></a>
           {% else %}
-          <span class="convenio is-pending" title="Enlace pendiente de completar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span class="convenio-name">{{ c.nombre }}</span><span class="convenio-meta">PDF</span></span>
+          <span class="convenio is-pending" title="Enlace pendiente de completar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span class="convenio-name">{{ c.nombre }}</span></span>
           {% endif %}
         {% endfor %}
       </div>

@@ -398,10 +398,13 @@ ul { list-style: none; }
 .footer-links { display: flex; flex-direction: column; gap: 0.5rem; }
 .footer-links a { font-size: 0.85rem; color: var(--text-mid); }
 .footer-links a:hover { color: var(--accent); }
-.footer-bottom { border-top: 1px solid var(--border); padding-top: 1.25rem; font-size: 0.78rem; color: var(--muted); }
+.footer-bottom { border-top: 1px solid var(--border); padding-top: 1.25rem; font-size: 0.78rem; color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.4rem 1.5rem; }
+.footer-legal { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--text-mid); white-space: nowrap; }
+.footer-legal:hover { color: var(--accent); }
+.nowrap { white-space: nowrap; }
 
 /* ── La Asociación: personas, grupos, documentos, convenios ── */
-#comision, #delegados, #convenios, #mundo { scroll-margin-top: calc(var(--header-h) + 16px); }
+#comision, #delegados, #convenios, #mundo, #personeria { scroll-margin-top: calc(var(--header-h) + 16px); }
 
 .person { display: flex; align-items: center; gap: 1rem; padding: 1.1rem 1.3rem; }
 .card.person:hover { transform: none; box-shadow: none; }
@@ -446,23 +449,10 @@ ul { list-style: none; }
 .doc-link.is-pending, .convenio.is-pending { opacity: 0.55; cursor: default; }
 .doc-link.is-pending { border-bottom-style: dashed; }
 
-/* Convenios: tres estilos de badge (se elige con convenios_estilo en pages/asociacion.html) */
+/* Convenios: badges en píldora */
 .convenios { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 1rem; }
-.convenio { display: inline-flex; align-items: center; gap: 8px; transition: color var(--transition), border-color var(--transition), background var(--transition); }
-a.convenio:hover { color: var(--accent); }
-/* A — píldora (mismo lenguaje que los chips) */
-.convenios--a .convenio { font-family: var(--font-body); font-weight: 600; font-size: 12.5px; padding: 9px 16px 9px 13px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-mid); }
-.convenios--a a.convenio:hover { border-color: var(--accent); background: var(--accent-dim); }
-.convenios--a .convenio-meta { display: none; }
-/* B — ficha */
-.convenios--b .convenio { padding: 10px 14px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent-2); font-weight: 600; font-size: 0.85rem; color: var(--text); }
-.convenios--b a.convenio:hover { border-color: var(--accent); border-left-color: var(--accent); }
-.convenios--b .convenio svg { display: none; }
-.convenios--b .convenio-meta { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; color: var(--text-mid); padding-left: 10px; margin-left: 4px; border-left: 1px solid var(--border); }
-/* C — etiqueta */
-.convenios--c .convenio { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 8px 14px; border-radius: 999px; background: rgba(180,194,184,0.3); border: 1px solid transparent; color: var(--text-mid); }
-.convenios--c a.convenio:hover { background: var(--accent-dim); border-color: var(--accent); }
-.convenios--c .convenio-meta { display: none; }
+.convenio { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-body); font-weight: 600; font-size: 12.5px; padding: 9px 16px 9px 13px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-mid); transition: color var(--transition), border-color var(--transition), background var(--transition); }
+a.convenio:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-dim); }
 
 /* ── Map page ── */
 /* isolation: los z-index internos de Leaflet (hasta 1000) quedan dentro del mapa y no tapan el navbar */
