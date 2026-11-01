@@ -6,6 +6,7 @@ categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "Hay un mes más para presentar trabajos para las sesiones orales y de pósteres del congreso de Puerto Iguazú."
+imagen: XCAP.png
 ---
 
 ¡Buenas noticias para quienes todavía están terminando su trabajo! Se **extendió hasta el 14 de febrero de 2025** el plazo para enviar **resúmenes para las sesiones orales y de pósteres** del **X Congreso Argentino de Parasitología**.
