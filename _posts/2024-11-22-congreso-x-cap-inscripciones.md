@@ -2,7 +2,7 @@
 layout: post
 title: "Abren las inscripciones al X Congreso Argentino de Parasitología"
 date: 2024-11-22
-categories: ["Eventos", "Congreso", "X CAP"]
+categories: ["Eventos", "Congreso"]
 imagen: 2024-11-congreso-x-cap-inscripciones.jpg
 excerpt: "Los socios de la APA, la SAP y la SAREM tienen aranceles preferenciales. Inscribirse antes del 30 de noviembre es la opción más económica."
 ---
