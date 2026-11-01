@@ -17,10 +17,7 @@ layout: default
 <div class="section" style="padding-top:0;">
   <div class="wrap">
     <article class="post-content">
-      {% capture img %}{% include img-src.html valor=page.imagen carpeta="noticias" %}{% endcapture %}
-      {% if img != "" %}
-      <img src="{{ img | strip }}" alt="{{ page.title }}" style="width:100%; border-radius: var(--radius-lg); margin-bottom: 1.75rem;" />
-      {% endif %}
+      {%- comment -%} La imagen de portada (imagen:) solo se usa en las tarjetas; dentro del post se muestran solo las imágenes escritas en el texto. {%- endcomment -%}
       {%- comment -%} Imágenes del texto: si solo se escribe el nombre (foto.jpg) se busca en assets/img/noticias/ {%- endcomment -%}
       {%- assign partes = content | split: '<img src="' -%}
       {%- capture cuerpo -%}
