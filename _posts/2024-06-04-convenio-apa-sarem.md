@@ -5,6 +5,7 @@ date: 2024-06-04
 categoria: "Novedades"
 tipo: "Convenio"
 excerpt: "Socias y socios de ambas sociedades tendrán los mismos derechos en publicaciones, cursos y congresos de la otra entidad."
+imagen: Logo-SAREM.png
 ---
 
 La Asociación Parasitológica Argentina comunica la entrada en vigencia del **convenio de cooperación con la Sociedad Argentina para el Estudio de los Mamíferos (SAREM)**. Ambas instituciones comparten objetivos y temas de trabajo en docencia, investigación, transferencia y gestión, en especial en torno a la parasitología de los mamíferos.
