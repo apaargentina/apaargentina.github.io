@@ -6,6 +6,7 @@ categoria: "Eventos"
 tipo: "Jornada"
 tematicas: ["Chagas"]
 excerpt: "El Ministerio de Salud de la Nación invita a socias y socios de la APA a una jornada virtual para mejorar el seguimiento de embarazadas con Chagas y recién nacidos. Es el 10 de junio a las 10 h."
+imagen: Trypanosoma_cruzi.png
 ---
 
 La Dirección de Epidemiología del **Ministerio de Salud de la Nación** invita a las socias y los socios de la APA a participar de la **II Jornada Federal SeVICha** (Seguimiento de la Vigilancia Intensificada de Chagas congénito y en embarazadas), dedicada al abordaje integral del Chagas congénito y en embarazadas.
