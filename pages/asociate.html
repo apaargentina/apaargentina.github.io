@@ -32,12 +32,18 @@ no_divider: true
         </div>
         <div class="membership-period">{{ a.periodo | default: "por año" }}</div>
         <div class="membership-cta">
-          {%- if formulario != "" -%}
-          <a href="{{ formulario | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">Asociarme</a>
-          {%- else -%}
-          <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">Asociarme</span>
-          {%- endif -%}
-        </div>
+  {%- if formulario != "" -%}
+  <a href="{{ formulario | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener">
+    <span data-show="socios">Pagar</span>
+    <span data-show="nuevos">Asociarme</span>
+  </a>
+  {%- else -%}
+  <span class="btn btn-primary is-disabled" aria-disabled="true" title="Formulario pendiente de completar">
+    <span data-show="socios">Pagar</span>
+    <span data-show="nuevos">Asociarme</span>
+  </span>
+  {%- endif -%}
+</div>
       </div>
       {%- endfor %}
     </div>
