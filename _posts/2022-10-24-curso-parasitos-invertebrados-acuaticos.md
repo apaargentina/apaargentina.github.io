@@ -5,6 +5,7 @@ date: 2022-10-24
 categoria: "Formación y Convocatorias"
 tipo: "Curso"
 excerpt: "Especialistas del IBIOMAR-CENPAT dictan 40 horas de teoría y técnicas de laboratorio, del 7 de noviembre al 5 de diciembre. La inscripción cierra el 4 de noviembre."
+imagen: 2022-10-24-curso-parasitos.png
 ---
 
 La Facultad de Ciencias Naturales y Ciencias de la Salud de la **Universidad Nacional de la Patagonia San Juan Bosco (sede Puerto Madryn)** ofrece el curso de posgrado virtual **«Parásitos y patologías de invertebrados acuáticos»** (Res. CDFCNyCS N.º 482/22), del **7 de noviembre al 5 de diciembre de 2022**.
