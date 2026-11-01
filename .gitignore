@@ -6,3 +6,5 @@ _site/
 .bundle/
 vendor/
 repo_status.md
+.DS_Store
+assets/.DS_Store
