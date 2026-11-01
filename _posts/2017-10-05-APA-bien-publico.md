@@ -2,7 +2,8 @@
 layout: post
 title: "La APA fue reconocida como Entidad de Bien Público"
 date: 2017-10-05
-categories: ["Novedades"]
+categoria: "Novedades"
+tipo: "Comunicado"
 imagen: entidad_bien_publico.png        # opcional, va en assets/img/noticias/
 excerpt: "La APA fue inscripta en el Registro de Entidades de Bien Público a través de la Dirección de Entidades y Culto."
 ---

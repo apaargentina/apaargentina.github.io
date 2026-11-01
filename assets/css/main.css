@@ -161,7 +161,6 @@ ul { list-style: none; }
   font-size: 19px;
   color: var(--text);
 }
-.nav-overlay-list a .ext-icon { width: 22px; height: 22px; flex: none; margin-left: 12px; fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .nav-overlay .btn { margin-top: 20px; }
 /* Botón Asociate: mismo tamaño y estilo en móvil y escritorio */
 .btn.desktop-cta, .nav-overlay .btn { width: 168px; font-size: 13px; line-height: 1.65; padding: 12px 14px; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -329,8 +328,11 @@ ul { list-style: none; }
 .page-header-title em { font-style: italic; color: var(--accent); }
 .page-header-desc { font-size: 0.95rem; color: var(--text-mid); max-width: 620px; line-height: 1.6; }
 
-/* ── Filters (Eventos archive) ── */
-.filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.75rem; }
+/* ── Filtros (Novedades, Eventos, Formación): Tipo + Temática ── */
+.filters { display: flex; flex-direction: column; gap: 12px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1rem 0; margin-bottom: 1.75rem; }
+.filter-row { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 14px; align-items: start; }
+.filter-label { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-mid); padding-top: 9px; }
+.filter-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 .filter-btn {
   font-family: var(--font-body);
   font-weight: 600;
@@ -341,9 +343,21 @@ ul { list-style: none; }
   background: transparent;
   color: var(--text-mid);
   cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
 }
+.filter-btn:not(.is-active):hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
 .filter-btn.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
-.archive-item { display: none; }
+.filter-btn:disabled { opacity: 0.35; border-style: dashed; cursor: default; }
+.filter-clear { align-self: flex-start; font-family: var(--font-body); font-weight: 600; font-size: 12.5px; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; }
+.filter-clear[hidden] { display: none; }
+@media (max-width: 700px) {
+  .filter-row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .filter-label { padding-top: 0; }
+  .filter-btns { flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; padding-bottom: 4px; scrollbar-width: none; }
+  .filter-btns::-webkit-scrollbar { display: none; }
+}
+.archive-item { display: none; min-width: 0; }
 .archive-item.is-visible { display: flex; }
 .card-tag--fit { align-self: flex-start; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .page-header--bare { border-bottom: none; margin-bottom: 0; padding-bottom: 0.5rem; }

@@ -2,7 +2,9 @@
 layout: post
 title: "Recomiendan sumar la PCR en tiempo real al diagnóstico del Chagas congénito"
 date: 2022-02-15
-categories: ["Novedades", "Chagas"]
+categoria: "Novedades"
+tipo: "Difusión"
+tematicas: ["Chagas"]
 excerpt: "Especialistas de todo el país acordaron usar la qPCR como método de elección en recién nacidos de hasta 10 meses. Ya está disponible el informe técnico completo."
 ---
 

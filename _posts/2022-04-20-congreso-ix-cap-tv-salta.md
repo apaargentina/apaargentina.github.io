@@ -2,7 +2,9 @@
 layout: post
 title: "El IX Congreso Argentino de Parasitología llegó a la televisión de Salta"
 date: 2022-04-20
-categories: ["Eventos", "Congreso", "Congreso Argentino de Parasitología"]
+categoria: "Eventos"
+tipo: "Congreso"
+tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "La presidenta de la Comisión Organizadora, Dora Davies, presentó el congreso en la TV a un mes del encuentro en Salta."
 ---
 

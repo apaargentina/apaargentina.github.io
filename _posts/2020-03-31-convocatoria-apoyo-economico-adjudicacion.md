@@ -2,7 +2,8 @@
 layout: post
 title: "Paola Benítez Ibalo y Melani Ruiz reciben el apoyo económico de marzo 2020"
 date: 2020-03-31
-categories: ["Formación y Convocatorias", "Apoyo económico"]
+categoria: "Formación y Convocatorias"
+tipo: "Apoyo Económico"
 excerpt: "Se conocieron las beneficiarias de la convocatoria de marzo para cursos de posgrado. La próxima convocatoria se abrirá del 1 al 10 de junio."
 ---
 

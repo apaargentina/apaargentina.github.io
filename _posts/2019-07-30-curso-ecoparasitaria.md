@@ -2,7 +2,8 @@
 layout: post
 title: "Curso de posgrado: Ecología Parasitaria Aplicada en la Universidad Nacional de Mar del Plata"
 date: 2019-07-30
-categories: ["Formación y Convocatorias", "Curso"]
+categoria: "Formación y Convocatorias"
+tipo: "Curso"
 imagen:      # opcional, va en assets/img/noticias/
 excerpt: "La Escuela de Posgrado de la Facultad de Ciencias Exactas y Naturales (FCEyN) de la Universidad Nacional de Mar del Plata dictará el curso Ecología Parasitaria Aplicada. El curso es gratuito y cuenta con el aval de la Asociación Parasitológica Argentina."
 ---

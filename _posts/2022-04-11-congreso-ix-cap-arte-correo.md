@@ -2,7 +2,9 @@
 layout: post
 title: "Convocatoria de arte correo «Parásitos en red» para el IX CAP"
 date: 2022-04-11
-categories: ["Formación y Convocatorias", "Arte y Ciencia"]
+categoria: "Formación y Convocatorias"
+tipo: "Convocatoria"
+tematicas: ["Arte y Ciencia", "Congreso Argentino de Parasitología"]
 excerpt: "Fotografía, collage o dibujo: todas las postales que lleguen se expondrán en el Congreso de Salta. Se reciben obras hasta el 30 de abril."
 ---
 

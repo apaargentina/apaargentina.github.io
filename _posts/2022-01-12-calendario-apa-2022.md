@@ -2,7 +2,9 @@
 layout: post
 title: "Ya está disponible el Calendario APA 2022, ilustrado con fotos de socias y socios"
 date: 2022-01-12
-categories: ["Novedades", "Arte y Ciencia"]
+categoria: "Novedades"
+tipo: "Comunicado"
+tematicas: ["Arte y Ciencia"]
 excerpt: "Las imágenes del primer concurso de fotografía «Arte Parasitológico», elegidas también por votación en Instagram, ilustran cada mes del año. Se puede descargar gratis."
 ---
 

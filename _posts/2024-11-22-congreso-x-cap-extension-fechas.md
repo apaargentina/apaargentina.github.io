@@ -2,7 +2,9 @@
 layout: post
 title: "X CAP: el calendario con las fechas clave para participar del congreso"
 date: 2024-11-22
-categories: ["Eventos", "Congreso", "Congreso Argentino de Parasitología"]
+categoria: "Eventos"
+tipo: "Congreso"
+tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "La inscripción temprana vence el 30 de noviembre y las propuestas de cursos y simposios se reciben hasta el 19 de diciembre."
 ---
 

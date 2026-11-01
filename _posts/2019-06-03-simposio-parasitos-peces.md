@@ -2,7 +2,9 @@
 layout: post
 title: "10th International Symposium for Fish Parasitology en Cairns, Australia"
 date: 2019-06-03
-categories: ["Eventos", "Simposio", "Peces"]
+categoria: "Eventos"
+tipo: "Simposio"
+tematicas: ["Peces"]
 imagen: SimposioParasitologiadePeces.jpg        # opcional, va en assets/img/noticias/
 excerpt: "Entre el 6 y el 9 de julio de 2020 se realizará en Cairns, Australia, el 10th International Symposium for Fish Parasitology (ISFP X), uno de los principales encuentros internacionales dedicados a la parasitología de peces."
 ---

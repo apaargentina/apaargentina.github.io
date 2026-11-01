@@ -2,7 +2,8 @@
 layout: post
 title: "El CEPAVE cumple 40 años y la APA lo celebra"
 date: 2019-12-12
-categories: ["Novedades", "Comunicado"]
+categoria: "Novedades"
+tipo: "Comunicado"
 excerpt: "Cuatro décadas formando referentes de la parasitología: la APA saluda al Centro de Estudios Parasitológicos y de Vectores en su aniversario."
 ---
 

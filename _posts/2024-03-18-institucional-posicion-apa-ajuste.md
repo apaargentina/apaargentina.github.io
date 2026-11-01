@@ -2,7 +2,8 @@
 layout: post
 title: "Posición de la APA frente a las políticas que afectan al sistema científico-tecnológico, académico y de salud de Argentina"
 date: 2024-03-18
-categories: ["Novedades", "Comunicado"]
+categoria: "Novedades"
+tipo: "Comunicado"
 excerpt: "Comunicado de la Comisión Directiva de la Asociación Parasitológica Argentina sobre la situación del sistema científico y académico del país."
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Parasitología en la Nube: los parásitos del pejerrey como indicadores de sus poblaciones"
 date: 2021-10-22
-categories: ["Eventos", "Charla", "Parasitología en la Nube"]
+categoria: "Eventos"
+tipo: "Charla"
+tematicas: ["Parasitología en la Nube"]
 excerpt: "Eugenia Levy explica cómo los ensambles de parásitos permiten distinguir poblaciones de un pez emblemático. La charla es el miércoles 27 de octubre a las 17 h."
 ---
 

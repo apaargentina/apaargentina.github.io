@@ -2,7 +2,8 @@
 layout: post
 title: "Cuota societaria 2025: nuevos valores desde el 1 de marzo"
 date: 2025-03-06
-categories: ["Novedades", "Cuota societaria"]
+categoria: "Novedades"
+tipo: "Cuota Societaria"
 excerpt: "La cuota profesional pasa a $45.000, y quienes se asocien por primera vez siguen teniendo valores reducidos."
 ---
 

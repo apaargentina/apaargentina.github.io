@@ -2,7 +2,9 @@
 layout: post
 title: "Parasitología en la Nube: luces y sombras de la identificación molecular de digeneos en Salta"
 date: 2021-09-27
-categories: ["Eventos", "Charla", "Parasitología en la Nube"]
+categoria: "Eventos"
+tipo: "Charla"
+tematicas: ["Parasitología en la Nube"]
 excerpt: "Carolina Davies cuenta los desafíos de identificar con herramientas moleculares a los parásitos de la fauna de agua dulce del Valle de Lerma. Es el miércoles 29 de septiembre a las 17 h."
 ---
 

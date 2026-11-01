@@ -2,7 +2,8 @@
 layout: post
 title: "Ekaterina Savchenko y Bruno Fusaro reciben el apoyo económico de la APA"
 date: 2019-11-19
-categories: ["Formación y Convocatorias", "Apoyo económico"]
+categoria: "Formación y Convocatorias"
+tipo: "Apoyo Económico"
 excerpt: "Se conoció el orden de mérito de la convocatoria de noviembre para cursos de posgrado. La APA anticipa tres nuevas convocatorias durante 2020."
 ---
 

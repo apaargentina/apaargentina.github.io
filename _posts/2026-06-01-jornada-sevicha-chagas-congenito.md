@@ -2,7 +2,9 @@
 layout: post
 title: "II Jornada Federal SeVICha sobre Chagas congénito y en embarazadas"
 date: 2026-06-01
-categories: ["Eventos", "Jornada", "Chagas"]
+categoria: "Eventos"
+tipo: "Jornada"
+tematicas: ["Chagas"]
 excerpt: "El Ministerio de Salud de la Nación invita a socias y socios de la APA a una jornada virtual para mejorar el seguimiento de embarazadas con Chagas y recién nacidos. Es el 10 de junio a las 10 h."
 ---
 

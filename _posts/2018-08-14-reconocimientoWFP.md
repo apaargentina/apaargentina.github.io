@@ -2,7 +2,8 @@
 layout: post
 title: "La Dra. Margarita Ostrowski de Núñez recibe el Distinguished Achievement Award de la World Federation of Parasitologists"
 date: 2018-08-14
-categories: ["Novedades"]
+categoria: "Novedades"
+tipo: "Comunicado"
 imagen: Margarita_Ostrowski.jpg        # opcional, va en assets/img/noticias/
 excerpt: "Socia de la APA fue distinguida con el Distinguished Achievement Award que otorga la World Federation of Parasitologists (WFP). El premio le será entregado durante el ICOPA XIV, el Congreso Internacional de Parasitología que se realizará en Daegu, Corea del Sur, del 19 al 24 de agosto."
 ---

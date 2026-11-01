@@ -2,7 +2,8 @@
 layout: post
 title: "Curso virtual de posgrado sobre parásitos y patologías de invertebrados acuáticos"
 date: 2021-10-22
-categories: ["Formación y Convocatorias", "Curso"]
+categoria: "Formación y Convocatorias"
+tipo: "Curso"
 excerpt: "Poliquetos, moluscos y crustáceos bajo la lupa: un curso de 40 horas dictado por especialistas del IBIOMAR-CENPAT. Se cursa del 15 de noviembre al 17 de diciembre."
 ---
 

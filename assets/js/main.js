@@ -133,28 +133,43 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ── Simple category/year filter (used on the Eventos archive) ─────
+  // ── Filtros de Novedades / Eventos / Formación: Tipo + Temática ───
   const filterBar = document.querySelector('[data-filters]');
   if (filterBar) {
-    const buttons = filterBar.querySelectorAll('.filter-btn');
-    const items = document.querySelectorAll('[data-archive-item]');
+    const buttons = [...filterBar.querySelectorAll('.filter-btn')];
+    const items = [...document.querySelectorAll('[data-archive-item]')];
+    const clearBtn = filterBar.querySelector('[data-filter-clear]');
+    const state = { tipo: '', tema: '' };
 
-    const applyFilter = (value) => {
-      items.forEach(item => {
-        const matches = value === 'all' || (item.dataset.archiveItem || '').includes('|' + value + '|');
-        item.classList.toggle('is-visible', matches);
+    const matches = (item, tipo, tema) =>
+      (!tipo || item.dataset.tipo === tipo) &&
+      (!tema || (item.dataset.tematicas || '').includes('|' + tema + '|'));
+
+    const update = () => {
+      items.forEach(item => item.classList.toggle('is-visible', matches(item, state.tipo, state.tema)));
+      buttons.forEach(btn => {
+        const group = btn.dataset.group, value = btn.dataset.filter;
+        const on = state[group] === value;
+        btn.classList.toggle('is-active', on);
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        // Atenuado y no elegible si, con el otro filtro activo, no daría resultados
+        const hayResultados = value === '' || items.some(item =>
+          group === 'tipo' ? matches(item, value, state.tema) : matches(item, state.tipo, value));
+        btn.disabled = !hayResultados;
       });
+      if (clearBtn) clearBtn.hidden = !(state.tipo || state.tema);
     };
 
     buttons.forEach(btn => {
       btn.addEventListener('click', () => {
-        buttons.forEach(b => b.classList.remove('is-active'));
-        btn.classList.add('is-active');
-        applyFilter(btn.dataset.filter);
+        const group = btn.dataset.group, value = btn.dataset.filter;
+        state[group] = (state[group] === value) ? '' : value; // volver a tocar un botón activo lo desactiva
+        update();
       });
     });
+    if (clearBtn) clearBtn.addEventListener('click', () => { state.tipo = ''; state.tema = ''; update(); });
 
-    applyFilter('all');
+    update();
   }
 
 

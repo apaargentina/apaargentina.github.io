@@ -2,7 +2,8 @@
 layout: post
 title: "Ya está disponible el nuevo número de la Revista Argentina de Parasitología"
 date: 2019-12-12
-categories: ["Novedades", "Revista Argentina de Parasitología"]
+categoria: "Novedades"
+tipo: "Revista Argentina de Parasitología"
 excerpt: "Salió el volumen 8, número 2 de la revista oficial de la APA. Además, ya está abierta la recepción de artículos para los próximos números."
 ---
 

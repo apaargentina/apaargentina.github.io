@@ -1,19 +1,11 @@
 {%- comment -%}
-  Tarjeta de entrada (post). Parámetros:
-    post   — el post
-    omitir — (opcional) categoría que no se repite en la etiqueta, ej. "Eventos" (comparación estricta)
-  La etiqueta muestra las demás categorías del post separadas por " · ".
+  Tarjeta de entrada (post). Parámetro:
+    post — el post
+  La etiqueta muestra el tipo y las temáticas ("Charla · Chagas"); la categoría no se repite porque ya la da la página.
 {%- endcomment -%}
 {%- assign p = include.post -%}
-{%- assign omit = include.omitir | default: "" -%}
-{%- assign etiquetas = "" -%}
-{%- for c in p.categories -%}
-  {%- if c != omit -%}
-    {%- unless etiquetas == "" -%}{%- assign etiquetas = etiquetas | append: " · " -%}{%- endunless -%}
-    {%- assign etiquetas = etiquetas | append: c -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- if etiquetas == "" -%}{%- assign etiquetas = include.omitir | default: p.categories.first -%}{%- endif -%}
+{%- capture etiquetas %}{% include post-etiquetas.html post=p %}{% endcapture -%}
+{%- assign etiquetas = etiquetas | strip -%}
 <a href="{{ p.url | relative_url }}" class="fade-up">
   <article class="card">
     {% capture img %}{% include img-src.html valor=p.imagen carpeta="noticias" %}{% endcapture %}

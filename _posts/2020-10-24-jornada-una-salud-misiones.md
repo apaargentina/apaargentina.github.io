@@ -2,7 +2,8 @@
 layout: post
 title: "Primera Jornada «Una Salud» sobre enfermedades zoonóticas regionales en Misiones"
 date: 2020-10-24
-categories: ["Eventos", "Jornada"]
+categoria: "Eventos"
+tipo: "Jornada"
 excerpt: "Médicos, veterinarios, biólogos, guardaparques y más, juntos para pensar las zoonosis como problema de salud pública. Es virtual y gratuita, el 3 y 4 de noviembre."
 ---
 

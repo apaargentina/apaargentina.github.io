@@ -2,7 +2,8 @@
 layout: post
 title: "Curso de posgrado en la UNNE sobre salud y ambiente y cómo enseñarlos"
 date: 2019-12-26
-categories: ["Formación y Convocatorias", "Curso"]
+categoria: "Formación y Convocatorias"
+tipo: "Curso"
 excerpt: "Una propuesta para docentes que buscan llevar al aula la relación entre ambiente, enfermedades y salud. Se dicta del 10 al 14 de febrero en Corrientes, con aval de la APA."
 ---
 

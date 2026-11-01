@@ -2,7 +2,8 @@
 layout: post
 title: "Curso Inmunología de la vacunación y adyuvantes en la Asociación Argentina de Microbiología"
 date: 2019-07-25
-categories: ["Formación y Convocatorias", "Curso"]
+categoria: "Formación y Convocatorias"
+tipo: "Curso"
 imagen:        # opcional, va en assets/img/noticias/
 excerpt: "Del 6 al 8 de agosto de 2019 se dictará en la Ciudad de Buenos Aires este curso organizado por la Asociación Argentina de Microbiología (AAM)."
 ---

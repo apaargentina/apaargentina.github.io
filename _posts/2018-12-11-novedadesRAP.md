@@ -2,7 +2,8 @@
 layout: post
 title: "La Revista Argentina de Parasitología pasa a publicarse dos veces por año"
 date: 2018-12-11
-categories: ["Novedades", "Revista Argentina de Parasitología"]
+categoria: "Novedades"
+tipo: "Revista Argentina de Parasitología"
 imagen:    # opcional, va en assets/img/noticias/
 excerpt: "A partir de 2019, la Revista Argentina de Parasitología (RAP), órgano oficial de difusión científica de la APA, aumentará su frecuencia."
 ---

@@ -2,7 +2,8 @@
 layout: post
 title: "Nuevo número de la Revista Argentina de Parasitología: volumen 9, número 2"
 date: 2020-10-27
-categories: ["Novedades", "Revista Argentina de Parasitología"]
+categoria: "Novedades"
+tipo: "Revista Argentina de Parasitología"
 excerpt: "Ya se puede leer la última edición de la revista científica de la APA. La convocatoria para enviar artículos sigue abierta."
 ---
 

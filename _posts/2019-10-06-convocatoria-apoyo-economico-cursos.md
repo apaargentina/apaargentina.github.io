@@ -2,7 +2,8 @@
 layout: post
 title: "La APA abre la convocatoria de apoyo económico para cursos de posgrado"
 date: 2019-10-06
-categories: ["Formación y Convocatorias", "Apoyo económico"]
+categoria: "Formación y Convocatorias"
+tipo: "Apoyo Económico"
 excerpt: "Las socias y los socios pueden pedir ayuda para financiar su formación de posgrado. Las solicitudes se reciben del 21 de octubre al 4 de noviembre."
 ---
 

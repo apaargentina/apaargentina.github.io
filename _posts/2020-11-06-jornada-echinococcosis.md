@@ -2,7 +2,9 @@
 layout: post
 title: "Primera Jornada Internacional de Diagnóstico de Laboratorio de las Echinococcosis del Cono Sur"
 date: 2020-11-06
-categories: ["Eventos", "Jornada", "Echinococcosis"]
+categoria: "Eventos"
+tipo: "Jornada"
+tematicas: ["Echinococcosis"]
 excerpt: "Catorce especialistas de Argentina, Chile y Perú comparten su experiencia en el diagnóstico de la hidatidosis. Es gratuita, por Zoom, el 30 de noviembre."
 ---
 

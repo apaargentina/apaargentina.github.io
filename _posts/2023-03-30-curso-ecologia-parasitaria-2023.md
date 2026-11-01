@@ -2,7 +2,8 @@
 layout: post
 title: "Curso presencial de posgrado en Ecología Parasitaria Aplicada en Mar del Plata"
 date: 2023-03-30
-categories: ["Formación y Convocatorias", "Curso"]
+categoria: "Formación y Convocatorias"
+tipo: "Curso"
 excerpt: "Una semana intensiva para aprender a usar los parásitos como marcadores naturales de peces y otros hospedadores. Se dicta en julio en la UNMdP y el cupo es de 20 personas."
 ---
 

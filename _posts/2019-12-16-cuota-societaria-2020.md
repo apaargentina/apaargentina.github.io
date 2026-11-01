@@ -2,7 +2,8 @@
 layout: post
 title: "Valores de la cuota societaria 2020 y descuentos para nuevos socios"
 date: 2019-12-16
-categories: ["Novedades", "Cuota societaria"]
+categoria: "Novedades"
+tipo: "Cuota Societaria"
 excerpt: "Quienes se asocien desde enero tendrán un 20 % de descuento, y un 30 % si lo hacen en grupo de tres o más personas. También hay plazos para regularizar deudas."
 ---
 

@@ -1,0 +1,19 @@
+{%- comment -%}
+  Etiqueta de una entrada: "Tipo · Temática · Temática". Parámetros:
+    post          — la entrada (o page, dentro del layout de la entrada)
+    con_categoria — (opcional) true para anteponer la categoría (Novedades, Eventos…); solo Inicio y la cabecera de la entrada
+  `tematicas` se normaliza con join/split: funciona escrita como lista ["A", "B"] o como texto suelto.
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign et = "" -%}
+{%- if include.con_categoria and p.categoria and p.categoria != "" -%}{%- assign et = p.categoria -%}{%- endif -%}
+{%- if p.tipo and p.tipo != "" -%}
+  {%- if et != "" -%}{%- assign et = et | append: " · " -%}{%- endif -%}
+  {%- assign et = et | append: p.tipo -%}
+{%- endif -%}
+{%- assign tems = p.tematicas | join: "|" | split: "|" -%}
+{%- for t in tems -%}
+  {%- if et != "" -%}{%- assign et = et | append: " · " -%}{%- endif -%}
+  {%- assign et = et | append: t -%}
+{%- endfor -%}
+{{- et -}}

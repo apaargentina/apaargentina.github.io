@@ -2,7 +2,9 @@
 layout: post
 title: "Primer Concurso de Fotografía «Arte Parasitológico» de la APA"
 date: 2021-08-25
-categories: ["Formación y Convocatorias", "Concurso", "Arte y Ciencia"]
+categoria: "Formación y Convocatorias"
+tipo: "Concurso"
+tematicas: ["Arte y Ciencia"]
 excerpt: "Las imágenes ganadoras ilustrarán el Calendario 2022 de la Asociación. Hay tiempo de enviar fotografías hasta el 10 de noviembre."
 ---
 

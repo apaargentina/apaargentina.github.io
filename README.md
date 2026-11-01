@@ -30,7 +30,7 @@ _data/                 ← tablas CSV editables + TABLAS.md
 _includes/             ← piezas reutilizables (header, footer, tarjetas, archivo por categoría…)
 _layouts/              ← plantillas: default / page / post
 _posts/                ← novedades, eventos, cursos, convocatorias (YYYY-MM-DD-titulo.md)
-pages/                 ← asociacion, eventos, formacion-convocatorias, asociate, contacto
+pages/                 ← asociacion, novedades, eventos, formacion-convocatorias, asociate, contacto
 index.html             ← inicio
 assets/
   css/main.css         ← todo el diseño (mobile-first; cortes en 700 px y 1100 px)
@@ -91,7 +91,9 @@ Crear un archivo `_posts/AAAA-MM-DD-titulo-corto.md` (la fecha del nombre es la 
 layout: post
 title: "Título de la entrada"
 date: 2026-07-15
-categories: ["Eventos", "Congreso", "Chagas"]
+categoria: "Eventos"                   # OBLIGATORIO. Una sola: "Novedades", "Eventos" o "Formación y Convocatorias"
+tipo: "Congreso"                       # opcional, uno solo (ej.: Charla, Jornada, Curso, Comunicado, Difusión…)
+tematicas: ["Chagas"]                  # opcional, una o varias, siempre entre corchetes y con comillas
 imagen: nombre-de-la-imagen.jpg        # opcional, va en assets/img/noticias/
 excerpt: "Resumen breve para las tarjetas."
 ---
@@ -99,20 +101,24 @@ excerpt: "Resumen breve para las tarjetas."
 Contenido en Markdown…
 ```
 
-### Categorías
+### Categoría, tipo y temáticas
 
-Se escriben **siempre entre corchetes y con comillas**. La primera categoría de sección decide la página:
+- **`categoria`** es obligatoria y decide en qué página aparece la entrada:
+  - `"Novedades"` → **Novedades**.
+  - `"Eventos"` → **Eventos**.
+  - `"Formación y Convocatorias"` → **Formación y Convocatorias**.
+- **`tipo`** (uno) y **`tematicas`** (una o varias, entre corchetes y con comillas) arman los dos filtros de la página:
+  una fila de botones de **Tipo** y otra de **Temática**, que se pueden combinar. Los botones salen solos de lo que
+  se escribe en las entradas, en orden alfabético, y con una sola entrada alcanza para que aparezca el botón.
+  Las combinaciones sin resultados se ven atenuadas.
+- Los tipos se escriben **en formato Título** (`"Cuota Societaria"`, `"In Memoriam"`, `"Apoyo Económico"`),
+  salvo `"Revista Argentina de Parasitología"`.
 
-- `"Eventos"` → aparece en **Eventos**.
-- `"Formación y Convocatorias"` → aparece en **Formación y Convocatorias**.
-- Cualquier otra categoría de la lista se convierte sola en un **botón de filtro** de esa página
-  (en orden alfabético). Si ninguna entrada de la página la usa, no aparece el botón.
-
-El texto es **estricto**: se ve tal cual está entre comillas, y `"Zoología"`, `"zoologia"` y `"ZOOLOGIA"`
-son tres categorías distintas (tres botones). Escribir `"eventos"` en vez de `"Eventos"` deja la entrada
-fuera de la página: después de publicar, revisar que aparezca. Sin corchetes ni comillas
-(`categories: Eventos Chagas`) Jekyll separa por espacios, así que no usarlo.
-Las entradas también salen en las tarjetas de novedades de Inicio.
+El texto es **estricto**: se ve tal cual está entre comillas, y `"Charla"`, `"charla"` y `"CHARLA"` son tres tipos
+distintos (tres botones). Si `categoria` está mal escrita (por ejemplo `"Evento"`), la entrada no aparece en ninguna
+página de sección, pero sí en Inicio: se corrige con un nuevo commit. Sin corchetes ni comillas, una lista de temáticas
+(`tematicas: Chagas Zika`) se lee como una sola.
+Las entradas también salen en las tarjetas de novedades de Inicio, con la categoría delante (`Eventos · Charla · Chagas`).
 
 ## PDFs de directorios (automáticos)
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Parasitología en la Nube: helmintos de peces de agua dulce de México y Centroamérica"
 date: 2020-10-12
-categories: ["Eventos", "Charla", "Parasitología en la Nube"]
+categoria: "Eventos"
+tipo: "Charla"
+tematicas: ["Parasitología en la Nube"]
 excerpt: "El ciclo de la APA se vuelve internacional con Guillermo Salgado-Maldonado, de la UNAM. La charla es el miércoles 14 de octubre a las 17 h de Argentina."
 ---
 

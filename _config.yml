@@ -142,6 +142,8 @@ contactos:
 nav:
   - title: "La Asociación"
     url: "/asociacion/"
+  - title: "Novedades"
+    url: "/novedades/"
   - title: "Eventos"
     url: "/eventos/"
   - title: "Formación y Convocatorias"

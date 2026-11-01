@@ -2,7 +2,9 @@
 layout: post
 title: "14 de abril: Día Mundial de la Enfermedad de Chagas"
 date: 2021-04-26
-categories: ["Novedades", "Chagas"]
+categoria: "Novedades"
+tipo: "Difusión"
+tematicas: ["Chagas"]
 excerpt: "La fecha recuerda el día en que Carlos Chagas diagnosticó por primera vez la enfermedad, en una niña de dos años. Fue declarada por la Asamblea Mundial de la Salud en 2019."
 ---
 

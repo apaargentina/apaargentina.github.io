@@ -2,7 +2,8 @@
 layout: post
 title: "La Sociedad Argentina de Protozoología realiza su XXXII Reunión Anual en formato virtual"
 date: 2020-09-02
-categories: ["Eventos", "Reunión científica"]
+categoria: "Eventos"
+tipo: "Reunión Científica"
 excerpt: "Conferencias, mesas redondas y comunicaciones libres con acceso libre, del 18 al 20 de noviembre. Los trabajos se reciben hasta el 12 de septiembre."
 ---
 

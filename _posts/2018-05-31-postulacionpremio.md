@@ -2,7 +2,8 @@
 layout: post
 title: "La APA postula a la Dra. Margarita Ostrowski de Núñez a los Premios al Logro Distinguido de la WFP"
 date: 2018-05-31
-categories: ["Novedades"]
+categoria: "Novedades"
+tipo: "Comunicado"
 imagen: Margarita_Ostrowski.jpg        # opcional, va en assets/img/noticias/
 excerpt: "La Comisión Directiva de la APA resolvió, por unanimidad, postular a la Dra. Margarita Ostrowski de Núñez a los Premios al Logro Distinguido que otorga la World Federation of Parasitologists (WFP)."
 ---

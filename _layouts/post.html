@@ -4,7 +4,8 @@ layout: default
 
 <div class="page-header">
   <div class="wrap fade-up">
-    <div class="section-label">{% if page.categories.size > 0 %}{{ page.categories | join: ' · ' }}{% else %}Novedad{% endif %}</div>
+    {%- capture etiqueta %}{% include post-etiquetas.html post=page con_categoria=true %}{% endcapture %}
+    <div class="section-label">{% if etiqueta != "" %}{{ etiqueta | strip }}{% else %}Novedad{% endif %}</div>
     <h1 class="page-header-title">{{ page.title }}</h1>
     <p class="page-header-desc">
       <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted);">
@@ -36,7 +37,7 @@ layout: default
       {%- endcapture -%}
       {{ cuerpo }}
     </article>
-    {% if page.categories contains 'Eventos' %}{% assign volver = '/eventos/' %}{% elsif page.categories contains 'Formación y Convocatorias' %}{% assign volver = '/formacion-convocatorias/' %}{% else %}{% assign volver = '/' %}{% endif %}
+    {% case page.categoria %}{% when 'Novedades' %}{% assign volver = '/novedades/' %}{% when 'Eventos' %}{% assign volver = '/eventos/' %}{% when 'Formación y Convocatorias' %}{% assign volver = '/formacion-convocatorias/' %}{% else %}{% assign volver = '/' %}{% endcase %}
     <a href="{{ volver | relative_url }}" class="btn btn-secondary" style="margin-top: 1.5rem;">← Volver</a>
   </div>
 </div>

@@ -2,7 +2,8 @@
 layout: post
 title: "La APA firma un convenio de cooperación con la Sociedad Argentina para el Estudio de los Mamíferos"
 date: 2024-06-04
-categories: ["Novedades", "Convenio"]
+categoria: "Novedades"
+tipo: "Convenio"
 excerpt: "Socias y socios de ambas sociedades tendrán los mismos derechos en publicaciones, cursos y congresos de la otra entidad."
 ---
 

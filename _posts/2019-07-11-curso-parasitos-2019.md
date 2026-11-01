@@ -2,7 +2,8 @@
 layout: post
 title: "Curso de posgrado: Parasitología Animal en la Universidad Nacional del Comahue"
 date: 2019-07-11
-categories: ["Formación y Convocatorias", "Curso"]
+categoria: "Formación y Convocatorias"
+tipo: "Curso"
 imagen: Parasites.jpg        # opcional, va en assets/img/noticias/
 excerpt: "El Departamento de Zoología de la Universidad Nacional del Comahue dictará en Bariloche la materia Parasitología Animal, en modalidad de cursado intensivo."
 ---

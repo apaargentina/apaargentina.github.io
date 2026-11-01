@@ -2,7 +2,9 @@
 layout: post
 title: "X CAP: se extiende hasta el 14 de febrero el envío de resúmenes"
 date: 2025-01-15
-categories: ["Eventos", "Congreso", "Congreso Argentino de Parasitología"]
+categoria: "Eventos"
+tipo: "Congreso"
+tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "Hay un mes más para presentar trabajos para las sesiones orales y de pósteres del congreso de Puerto Iguazú."
 ---
 

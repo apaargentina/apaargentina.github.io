@@ -9,7 +9,6 @@
       {% for item in site.nav %}
         <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="is-active"{% endif %}>{{ item.title }}</a>
       {% endfor %}
-      <a href="{{ site.revista_url }}" target="_blank" rel="noopener">Revista ↗</a>
     </nav>
     <a href="{{ '/asociate/' | relative_url }}" class="btn btn-primary desktop-cta">Asociate</a>
 
@@ -27,10 +26,6 @@
           <span>{{ item.title }}</span>
         </a>
       {% endfor %}
-      <a href="{{ site.revista_url }}" target="_blank" rel="noopener" class="is-external">
-        <span>Revista Argentina de Parasitología</span>
-        <svg class="ext-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>
-      </a>
     </div>
     <a href="{{ '/asociate/' | relative_url }}" class="btn btn-primary">Asociate</a>
     <div class="nav-overlay-foot">

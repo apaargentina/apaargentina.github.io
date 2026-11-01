@@ -2,7 +2,8 @@
 layout: post
 title: "La APA presentó un simposio en el XI Congreso de la Sociedad Argentina de Protozoología"
 date: 2022-03-18
-categories: ["Eventos", "Congreso"]
+categoria: "Eventos"
+tipo: "Congreso"
 excerpt: "Trichinellosis, amebas de vida libre, Blastocystis y parasitosis intestinales fueron los ejes del simposio que organizaron socias de la APA en Mendoza."
 ---
 

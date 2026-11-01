@@ -2,7 +2,8 @@
 layout: post
 title: "Regularización Cuota Societaria APA"
 date: 2019-08-01
-categories: ["Novedades"]
+categoria: "Novedades"
+tipo: "Cuota Societaria"
 imagen:       # opcional, va en assets/img/noticias/
 excerpt: "Resumen breve para las tarjetas."
 ---
