@@ -4,6 +4,7 @@ title: "X Congreso Argentino de Parasitología: así es el cronograma completo"
 date: 2025-04-09
 categories: ["Eventos", "Congreso", "X CAP"]
 excerpt: "Cuatro conferencias, simposios, mesas redondas, talleres y diez grupos de sesiones orales en tres días en Puerto Iguazú. Walter Boeger abre el congreso el 7 de mayo."
+imagen: congreso-iguazu.jpg
 ---
 
 Ya está disponible el **cronograma del X Congreso Argentino de Parasitología**, que se realizará del **7 al 9 de mayo de 2025 en Puerto Iguazú, Misiones**. Las actividades se desarrollarán en dos salones del Centro de Convenciones (CEC) y en el salón Yabuticaba.
