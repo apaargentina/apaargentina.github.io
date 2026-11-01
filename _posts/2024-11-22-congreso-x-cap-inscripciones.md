@@ -6,6 +6,7 @@ categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "Los socios de la APA, la SAP y la SAREM tienen aranceles preferenciales. Inscribirse antes del 30 de noviembre es la opción más económica."
+imagen: XCAP.png
 ---
 
 Ya están abiertas las **inscripciones al X Congreso Argentino de Parasitología**, que se realizará del **7 al 9 de mayo de 2025 en Puerto Iguazú, Misiones**. Gracias a los convenios vigentes, **los socios de la Sociedad Argentina de Protozoología (SAP) y de la Sociedad Argentina para el Estudio de los Mamíferos (SAREM) acceden a los mismos valores que los socios de la APA**.
