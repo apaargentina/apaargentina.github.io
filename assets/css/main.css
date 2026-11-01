@@ -361,6 +361,8 @@ ul { list-style: none; }
 .archive-item.is-visible { display: flex; }
 .card-tag--fit { align-self: flex-start; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .page-header--bare { border-bottom: none; margin-bottom: 0; padding-bottom: 0.5rem; }
+/* Páginas con filtros: el título queda a la misma distancia de los filtros que estos de la primera fila de tarjetas (1.75rem) */
+.page-header--bare:has(+ .section .filters) { padding-bottom: 1.25rem; }
 
 /* ── Membership / asociate ── */
 .membership-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 2.5rem; }
