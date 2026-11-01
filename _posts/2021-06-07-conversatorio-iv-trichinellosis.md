@@ -3,7 +3,6 @@ layout: post
 title: "Cuarto conversatorio sobre trichinellosis: unificar el diagnóstico animal en todo el país"
 date: 2021-06-07
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2021-06-conversatorio-iv-trichinellosis.jpg
 excerpt: "Especialistas del SENASA explican cómo lograr una metodología común para todos los laboratorios de Argentina. El encuentro es el jueves 10 de junio a las 17:30 h."
 ---
 

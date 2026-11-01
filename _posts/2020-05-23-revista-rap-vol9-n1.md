@@ -3,7 +3,6 @@ layout: post
 title: "Salió el volumen 9, número 1 de la Revista Argentina de Parasitología"
 date: 2020-05-23
 categories: ["Novedades", "Revista Argentina de Parasitología"]
-imagen: 
 excerpt: "La revista oficial de la APA publica un nuevo número y abre la recepción de artículos para las próximas ediciones."
 ---
 

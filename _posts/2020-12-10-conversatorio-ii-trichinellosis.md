@@ -3,7 +3,6 @@ layout: post
 title: "Segundo conversatorio sobre trichinellosis: identificar el problema en Argentina"
 date: 2020-12-10
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2020-12-conversatorio-ii-trichinellosis.jpg
 excerpt: "El Ministerio de Salud, el Instituto Malbrán y el SENASA presentan su mirada sobre la trichinellosis en el país. El encuentro es el jueves 10 de diciembre a las 16 h."
 ---
 

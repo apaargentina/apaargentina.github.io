@@ -3,7 +3,6 @@ layout: post
 title: "Graciela Navone, designada profesora emérita de la UNLP"
 date: 2020-12-13
 categories: ["Novedades", "Comunicado"]
-imagen: 2020-12-institucional-navone-emerita.jpg
 excerpt: "La socia fundadora y expresidenta de la APA recibió el máximo reconocimiento académico de la Facultad de Ciencias Naturales y Museo."
 ---
 

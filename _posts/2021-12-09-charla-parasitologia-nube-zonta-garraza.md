@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: universidad y comunidad, una mirada integral a la salud"
 date: 2021-12-09
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 2021-12-charla-parasitologia-nube-zonta-garraza.jpg
 excerpt: "María Lorena Zonta y Mariela Garraza cierran el ciclo 2021 con su experiencia en salud humana, animal y ambiental en dos regiones contrastantes del país. Es el martes 14 de diciembre a las 17:30 h."
 ---
 

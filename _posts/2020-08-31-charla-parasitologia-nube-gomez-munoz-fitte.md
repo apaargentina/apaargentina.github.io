@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: los parásitos de las ratas urbanas de La Plata y Corrientes"
 date: 2020-08-31
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 
 excerpt: "Dos ciudades capitales y dos realidades distintas para estudiar los parásitos y patógenos de roedores sinantrópicos. La charla es el miércoles 2 de septiembre a las 17 h."
 ---
 

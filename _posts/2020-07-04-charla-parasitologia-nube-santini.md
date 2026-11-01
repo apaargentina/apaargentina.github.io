@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: María Soledad Santini habla sobre la producción social de las enfermedades"
 date: 2020-07-04
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 
 excerpt: "La directora del CeNDIE-ANLIS propone mirar las enfermedades desde una perspectiva socioambiental. La charla es el miércoles 26 de agosto a las 17 h, abierta y en línea."
 ---
 

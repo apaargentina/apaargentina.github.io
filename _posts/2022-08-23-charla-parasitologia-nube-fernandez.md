@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: «Pensemos en Chagas», con Marisa Fernández"
 date: 2022-08-23
 categories: ["Eventos", "Charla", "Parasitología en la Nube", "Chagas"]
-imagen: 2022-08-charla-parasitologia-nube-fernandez.jpg
 excerpt: "En el Día Nacional por una Argentina sin Chagas, la jefa del Servicio de Clínica del Instituto Nacional de Parasitología invita a pensar la enfermedad. La charla es el viernes 26 de agosto a las 17 h."
 ---
 

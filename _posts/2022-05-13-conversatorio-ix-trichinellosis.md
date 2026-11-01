@@ -3,7 +3,6 @@ layout: post
 title: "Noveno conversatorio sobre trichinellosis: vigilancia de la cadena porcina"
 date: 2022-05-13
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2022-05-conversatorio-ix-trichinellosis.jpg
 excerpt: "Experiencias municipales de Buenos Aires y Córdoba para controlar el riesgo de trichinellosis en la producción de cerdos. El encuentro es el jueves 19 de mayo a las 18 h."
 ---
 

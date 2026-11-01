@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: perros sin control y salud urbana"
 date: 2020-10-05
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 2020-10-charla-parasitologia-nube-viozzi.jpg
 excerpt: "Gustavo Viozzi cuenta cómo la extensión universitaria puede aportar a un problema de salud pública presente en muchas ciudades. La charla es el miércoles 7 de octubre a las 17 h."
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: "Nuevos valores de la cuota societaria 2024/2025, con descuento para nuevos socios"
 date: 2024-11-05
 categories: ["Novedades", "Cuota societaria"]
-imagen: 2024-11-cuota-societaria-actualizacion.jpg
 excerpt: "Hasta el 28 de febrero de 2025, quienes se asocien por primera vez pagan menos. La cuota profesional queda en $30.000."
 ---
 

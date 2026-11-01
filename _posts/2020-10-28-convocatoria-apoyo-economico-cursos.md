@@ -3,7 +3,6 @@ layout: post
 title: "La APA ofrece cuatro apoyos económicos para cursos de posgrado virtuales"
 date: 2020-10-28
 categories: ["Formación y Convocatorias", "Apoyo económico"]
-imagen: 2020-10-convocatoria-apoyo-economico-cursos.jpg
 excerpt: "Cada apoyo equivale a dos cuotas societarias profesionales y puede usarse para inscripciones o materiales de librería. Las solicitudes se reciben del 1 al 10 de noviembre."
 ---
 

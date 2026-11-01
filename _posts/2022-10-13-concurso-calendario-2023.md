@@ -3,7 +3,6 @@ layout: post
 title: "Segundo Concurso de Fotografía: tu imagen puede ilustrar el Calendario APA 2023"
 date: 2022-10-13
 categories: ["Formación y Convocatorias", "Concurso", "Arte y Ciencia"]
-imagen: 2022-10-concurso-calendario-2023.jpg
 excerpt: "Doce fotografías de parásitos, elegidas por votación en Instagram, formarán el calendario del año. Puede participar cualquier persona, sea o no socia de la APA, hasta el 28 de octubre."
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: "Ofrecen una beca doctoral para estudiar moluscos y sus parásitos en Mar del Plata"
 date: 2019-11-25
 categories: ["Formación y Convocatorias", "Beca"]
-imagen: 
 excerpt: "La beca, de la ANPCyT, dura tres años y comienza en febrero de 2020 en el IIPROSAM. Los CV se reciben hasta el 4 de diciembre."
 ---
 

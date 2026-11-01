@@ -3,7 +3,6 @@ layout: post
 title: "Undécimo conversatorio sobre trichinellosis: situación epidemiológica y prevención"
 date: 2022-09-26
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2022-09-conversatorio-xi-trichinellosis.png
 excerpt: "El SENASA y el Instituto Nacional de Alimentos presentan los datos actuales y las estrategias de prevención de la trichinellosis. Es el viernes 30 de septiembre a las 17 h."
 ---
 

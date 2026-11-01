@@ -2,8 +2,7 @@
 layout: post
 title: "El IX Congreso Argentino de Parasitología llegó a la televisión de Salta"
 date: 2022-04-20
-categories: ["Eventos", "Congreso"]
-imagen: 2021-06-congreso-ix-cap-salta-7.jpg
+categories: ["Eventos", "Congreso", "IX CAP"]
 excerpt: "La presidenta de la Comisión Organizadora, Dora Davies, presentó el congreso en la TV a un mes del encuentro en Salta."
 ---
 

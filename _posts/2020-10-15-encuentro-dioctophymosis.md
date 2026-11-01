@@ -3,7 +3,6 @@ layout: post
 title: "Primer Encuentro Latinoamericano de Dioctophymosis"
 date: 2020-10-15
 categories: ["Eventos", "Encuentro"]
-imagen: 2020-10-encuentro-dioctophymosis.jpg
 excerpt: "Bajo el lema «Dioctophymosis rompiendo fronteras», especialistas de la región se reúnen en línea del 25 al 27 de noviembre."
 ---
 

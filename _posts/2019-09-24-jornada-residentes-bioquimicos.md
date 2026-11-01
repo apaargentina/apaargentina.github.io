@@ -3,7 +3,6 @@ layout: post
 title: "Jornadas de Residentes Bioquímicos en Junín, con un módulo dedicado a zoonosis"
 date: 2019-09-24
 categories: ["Eventos", "Jornada"]
-imagen: 
 excerpt: "Brucelosis, toxoplasmosis y el enfoque de Una Salud forman parte del programa. Las XXIV Jornadas se realizan del 31 de octubre al 2 de noviembre en la UNNOBA."
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: ¿qué nos cuentan los parásitos de la antigüedad?"
 date: 2020-09-21
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 
 excerpt: "La paleoparasitóloga María Ornela Beltrame explica qué revelan los parásitos hallados en restos antiguos. La charla es el miércoles 23 de septiembre a las 17 h."
 ---
 

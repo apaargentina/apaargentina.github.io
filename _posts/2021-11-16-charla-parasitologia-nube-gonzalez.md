@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: nematodes parásitos de anfibios del Gran Chaco"
 date: 2021-11-16
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 2021-11-charla-parasitologia-nube-gonzalez.jpg
 excerpt: "Cynthya González presenta sus estudios sobre los parásitos de ranas y sapos de una de las regiones más diversas del país. La charla es el miércoles 24 de noviembre a las 17 h."
 ---
 

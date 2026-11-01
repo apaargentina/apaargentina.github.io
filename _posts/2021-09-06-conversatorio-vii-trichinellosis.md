@@ -3,7 +3,6 @@ layout: post
 title: "Séptimo conversatorio sobre trichinellosis: especies de Trichinella en Sudamérica"
 date: 2021-09-06
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2021-09-conversatorio-vii-trichinellosis.jpg
 excerpt: "El equipo de Parasitología de Veterinaria-UBA presenta sus estudios en cerdos, jabalíes y cobayos y el rol de la Comisión Internacional de Trichinellosis. Es el jueves 9 de septiembre."
 ---
 

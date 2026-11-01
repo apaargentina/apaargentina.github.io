@@ -3,7 +3,6 @@ layout: post
 title: "Octavo conversatorio sobre trichinellosis: la enfermedad en animales silvestres"
 date: 2021-10-12
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2021-10-conversatorio-viii-trichinellosis.jpg
 excerpt: "Pumas, jabalíes, armadillos: especialistas de cuatro provincias comparten la situación epidemiológica y el diagnóstico de la trichinellosis en la fauna silvestre. Es el jueves 14 de octubre a las 17 h."
 ---
 

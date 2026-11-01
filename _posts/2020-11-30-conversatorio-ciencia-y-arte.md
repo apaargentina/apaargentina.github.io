@@ -3,7 +3,6 @@ layout: post
 title: "Primer conversatorio de Ciencia y Arte: cuando los parásitos inspiran obras"
 date: 2020-11-30
 categories: ["Eventos", "Conversatorio", "Arte y Ciencia"]
-imagen: 2020-11-conversatorio-ciencia-y-arte.jpg
 excerpt: "Una investigadora en letras, un artista, un ilustrador científico y una bióloga y artista plástica conversan sobre los puentes entre los dos mundos. Es el 3 de diciembre a las 17 h."
 ---
 

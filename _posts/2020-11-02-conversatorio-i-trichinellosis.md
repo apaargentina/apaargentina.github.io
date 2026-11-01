@@ -3,7 +3,6 @@ layout: post
 title: "Primer conversatorio de la APA para un abordaje integral de la trichinellosis"
 date: 2020-11-02
 categories: ["Eventos", "Conversatorio", "Trichinellosis"]
-imagen: 2020-11-conversatorio-i-trichinellosis.jpg
 excerpt: "Científicos, organismos sanitarios, productores y médicos se sientan a la misma mesa para enfrentar una zoonosis endémica en Argentina. El primer encuentro es el jueves 5 de noviembre."
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: la trichinellosis, una zoonosis vigente en Argentina"
 date: 2020-09-07
 categories: ["Eventos", "Charla", "Parasitología en la Nube", "Trichinellosis"]
-imagen: 
 excerpt: "Viviana Randazzo y Silvio Krivokapich comparten sus experiencias de trabajo con una enfermedad que sigue presente en el país. La charla es el miércoles 16 de septiembre a las 17 h."
 ---
 

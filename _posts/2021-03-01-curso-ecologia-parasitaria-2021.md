@@ -3,7 +3,6 @@ layout: post
 title: "Curso virtual y gratuito de posgrado en Ecología Parasitaria Aplicada"
 date: 2021-03-01
 categories: ["Formación y Convocatorias", "Curso"]
-imagen: 2021-03-curso-ecologia-parasitaria-2021.jpg
 excerpt: "Aprendé a usar los parásitos como marcadores naturales de sus hospedadores. El curso de la UNMdP, con aval de la APA, se dicta en junio y la inscripción cierra el 31 de mayo."
 ---
 

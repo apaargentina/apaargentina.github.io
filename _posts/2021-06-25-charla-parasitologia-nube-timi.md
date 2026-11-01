@@ -3,7 +3,6 @@ layout: post
 title: "Vuelve Parasitología en la Nube: ¿por qué es un error ignorar a los parásitos en estudios ecológicos?"
 date: 2021-06-25
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 2021-06-charla-parasitologia-nube-timi.jpg
 excerpt: "Juan Timi abre la temporada 2021 del ciclo de charlas de la APA. Es el miércoles 30 de junio a las 17 h, abierta y en línea."
 ---
 

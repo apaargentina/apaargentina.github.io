@@ -3,7 +3,6 @@ layout: post
 title: "Vuelve el curso virtual de posgrado sobre parásitos y patologías de invertebrados acuáticos"
 date: 2022-10-24
 categories: ["Formación y Convocatorias", "Curso"]
-imagen: 2022-10-curso-parasitos-invertebrados-acuaticos.jpg
 excerpt: "Especialistas del IBIOMAR-CENPAT dictan 40 horas de teoría y técnicas de laboratorio, del 7 de noviembre al 5 de diciembre. La inscripción cierra el 4 de noviembre."
 ---
 

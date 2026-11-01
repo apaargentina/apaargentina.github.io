@@ -3,7 +3,6 @@ layout: post
 title: "Curso de posgrado sobre morfología y sistemática de cestodes en la UBA"
 date: 2019-08-23
 categories: ["Formación y Convocatorias", "Curso"]
-imagen: 
 excerpt: "Diez días de teoría y práctica para conocer los 19 órdenes de Cestoda. El curso se dicta del 9 al 20 de diciembre en Exactas-UBA y otorga 3 puntos para el doctorado."
 ---
 

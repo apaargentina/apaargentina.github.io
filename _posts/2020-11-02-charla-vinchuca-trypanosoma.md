@@ -3,7 +3,6 @@ layout: post
 title: "Charla: ¿cómo se reconocen parásitos y vectores? El caso de la vinchuca y el Trypanosoma"
 date: 2020-11-02
 categories: ["Eventos", "Charla", "Chagas"]
-imagen: 2020-11-charla-vinchuca-trypanosoma.jpg
 excerpt: "El Dr. Rolando Rivera explica cómo se identifican el vector y el parásito de la enfermedad de Chagas. Es el 5 de noviembre a las 14 h, con certificado de asistencia."
 ---
 

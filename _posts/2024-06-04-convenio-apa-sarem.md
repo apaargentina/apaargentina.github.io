@@ -3,7 +3,6 @@ layout: post
 title: "La APA firma un convenio de cooperación con la Sociedad Argentina para el Estudio de los Mamíferos"
 date: 2024-06-04
 categories: ["Novedades", "Convenio"]
-imagen: 2024-06-convenio-apa-sarem.jpg
 excerpt: "Socias y socios de ambas sociedades tendrán los mismos derechos en publicaciones, cursos y congresos de la otra entidad."
 ---
 
@@ -19,4 +18,4 @@ Quienes tengan la cuota al día en su asociación **gozarán de los mismos derec
 
 Además, ambas sociedades se comprometen a promover actividades conjuntas de docencia, investigación, transferencia y gestión.
 
-[Leé el convenio completo aquí](/assets/docs/convenio-apa-sarem.pdf)
+[Leé el convenio completo aquí](/assets/docs/CONVENIO-APA-SAREM.pdf)

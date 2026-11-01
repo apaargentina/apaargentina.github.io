@@ -3,7 +3,6 @@ layout: post
 title: "Despedimos a la Dra. Analía Autino y al Dr. Daniel González Acuña"
 date: 2020-12-30
 categories: ["Novedades", "In memoriam"]
-imagen: 2020-12-in-memoriam-autino-gonzalez-acuna.jpg
 excerpt: "La parasitología latinoamericana perdió a dos de sus referentes, una investigadora de la Universidad Nacional de Tucumán y un investigador de la Universidad de Concepción, Chile."
 ---
 

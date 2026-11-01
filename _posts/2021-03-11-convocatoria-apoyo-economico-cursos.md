@@ -3,7 +3,6 @@ layout: post
 title: "Nueva convocatoria de apoyo económico para cursos de posgrado virtuales"
 date: 2021-03-11
 categories: ["Formación y Convocatorias", "Apoyo económico"]
-imagen: 2021-03-convocatoria-apoyo-economico-cursos.jpg
 excerpt: "La APA vuelve a ofrecer cuatro apoyos para pagar inscripciones a cursos virtuales y materiales de librería. Las solicitudes se reciben del 22 al 31 de marzo."
 ---
 

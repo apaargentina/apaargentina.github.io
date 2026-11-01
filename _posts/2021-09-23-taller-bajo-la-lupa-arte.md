@@ -3,7 +3,6 @@ layout: post
 title: "«Bajo la lupa»: un taller gratuito para mirar la práctica científica desde el arte"
 date: 2021-09-23
 categories: ["Formación y Convocatorias", "Taller", "Arte y Ciencia"]
-imagen: 2021-09-taller-bajo-la-lupa-arte.jpg
 excerpt: "No hacen falta conocimientos artísticos: la Comisión Arte y Ciencia invita a socias y socios a crear piezas poéticas a partir de su propia investigación. Son tres encuentros virtuales, de octubre a diciembre."
 ---
 

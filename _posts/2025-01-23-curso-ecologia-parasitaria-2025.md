@@ -3,7 +3,6 @@ layout: post
 title: "Curso presencial de posgrado en Ecología Parasitaria Aplicada, edición 2025"
 date: 2025-01-23
 categories: ["Formación y Convocatorias", "Curso"]
-imagen: 2025-01-curso-ecologia-parasitaria-2025.jpg
 excerpt: "Vuelve a la UNMdP el curso que enseña a usar los parásitos como indicadores ambientales y de sus hospedadores. Se dicta en marzo y hay 20 vacantes."
 ---
 

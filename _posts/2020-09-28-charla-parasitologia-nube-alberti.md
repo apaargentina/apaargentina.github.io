@@ -3,7 +3,6 @@ layout: post
 title: "Parasitología en la Nube: una introducción a R para quienes investigan"
 date: 2020-09-28
 categories: ["Eventos", "Charla", "Parasitología en la Nube"]
-imagen: 2020-09-charla-parasitologia-nube-alberti.jpg
 excerpt: "¿Qué es R y cómo empezar a usarlo? Juan Alberti da los primeros pasos con la herramienta de análisis de datos más usada en ecología. La charla es el miércoles 30 de septiembre a las 17 h."
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: "Jornada de Investigación de Veterinaria de la UCCuyo: vinchucas, Toxocara e hidatidosis"
 date: 2020-10-18
 categories: ["Eventos", "Jornada"]
-imagen: 2020-10-jornada-investigacion-veterinaria-san-luis-7.jpg
 excerpt: "Cuatro investigaciones sobre parásitos y vectores en una mañana, gratis y con certificado. La 4.ª Jornada de la Universidad Católica de Cuyo es el 28 de octubre por Zoom."
 ---
 
