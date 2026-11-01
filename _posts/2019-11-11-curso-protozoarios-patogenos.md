@@ -3,7 +3,7 @@ layout: post
 title: "Curso de posgrado sobre protozoarios patógenos humanos en la Universidad Nacional de Córdoba"
 date: 2019-11-11
 categories: ["Formación y Convocatorias", "Curso"]
-imagen: 2019-11-curso-protozoarios-patogenos.jpg
+imagen: 
 excerpt: "Chagas, toxoplasmosis, paludismo y amebas de vida libre en cuatro días de actualización. El curso se dicta del 27 al 30 de noviembre en la FCQ-UNC."
 ---
 
