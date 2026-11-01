@@ -2,7 +2,7 @@
 layout: post
 title: "X CAP: se extiende hasta el 14 de febrero el envío de resúmenes"
 date: 2025-01-15
-categories: ["Eventos", "Congreso", "X CAP"]
+categories: ["Eventos", "Congreso"]
 imagen: 2025-01-congreso-x-cap-extension-fechas.jpg
 excerpt: "Hay un mes más para presentar trabajos para las sesiones orales y de pósteres del congreso de Puerto Iguazú."
 ---
