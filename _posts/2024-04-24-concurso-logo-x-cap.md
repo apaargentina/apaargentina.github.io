@@ -2,7 +2,7 @@
 layout: post
 title: "Concurso para diseñar el logo del X Congreso Argentino de Parasitología, Iguazú 2025"
 date: 2024-04-24
-categories: ["Formación y Convocatorias", "Concurso", "X CAP"]
+categories: ["Formación y Convocatorias", "Concurso", "Congreso Argentino de Parasitología"]
 excerpt: "El diseño ganador será la imagen oficial del congreso y su autor tendrá la inscripción temprana de regalo. Las propuestas se reciben hasta el 30 de mayo."
 ---
 
