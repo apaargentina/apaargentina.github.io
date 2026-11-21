@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Confirman en Catamarca un caso de meningoencefalitis amebiana primaria por *Naegleria fowleri*'
+title: "Confirman en Catamarca un caso de meningoencefalitis amebiana primaria"
 date: 2026-10-22
 categoria: "Novedades"                   # OBLIGATORIO. Una sola: "Novedades", "Eventos" o "Formación y Convocatorias"
 tipo: "Difusión"                       # opcional, uno solo (ej.: Charla, Jornada, Curso, Comunicado, Difusión…)
@@ -9,7 +9,7 @@ imagen: Naegleria_fowleri.png       # opcional, va en assets/img/noticias/
 excerpt: "Es el segundo caso registrado en Argentina. Las autoridades aclaran que no se trata de un brote, sino de un caso aislado, y que la enfermedad no se transmite de persona a persona."
 ---
 
-El Laboratorio Nacional de Referencia ANLIS Malbrán confirmó un caso de meningoencefalitis amebiana primaria (MAP) en la provincia de Catamarca. La causa es Naegleria fowleri, una ameba de vida libre. Es el segundo caso registrado en el país; el primero ocurrió en 2017 en la provincia de Buenos Aires.
+El Laboratorio Nacional de Referencia ANLIS Malbrán confirmó un caso de meningoencefalitis amebiana primaria (MAP) en la provincia de Catamarca. La causa es *Naegleria fowleri*, una ameba de vida libre. Es el segundo caso registrado en el país; el primero ocurrió en 2017 en la provincia de Buenos Aires.
 
 **¿Qué es *Naegleria fowleri*?**
 Es una ameba que vive en aguas dulces templadas o calientes, como lagunas, ríos y aguas termales, y en su sedimento. Puede causar la MAP, una infección del cerebro y de las membranas que lo rodean, de muy alta gravedad.
