@@ -4,6 +4,7 @@ title: "Entra en vigencia el convenio de cooperación entre la APA y la Sociedad
 date: 2021-03-09
 categoria: "Novedades"
 tipo: "Convenio"
+imagen: Sociedad_Argentina_de_Protozoologia.png
 excerpt: "Los socios de la APA pagarán la mitad del arancel de no socio en las actividades de la SAP, y los socios de la SAP abonarán lo mismo que un socio de la APA."
 ---
 
