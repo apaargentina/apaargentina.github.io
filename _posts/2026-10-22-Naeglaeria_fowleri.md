@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Confirman en Catamarca un caso de meningoencefalitis amebiana primaria por *Naegleria fowleri*"
+title: 'Confirman en Catamarca un caso de meningoencefalitis amebiana primaria por *Naegleria fowleri*'
 date: 2026-10-22
 categoria: "Novedades"                   # OBLIGATORIO. Una sola: "Novedades", "Eventos" o "Formación y Convocatorias"
 tipo: "Difusión"                       # opcional, uno solo (ej.: Charla, Jornada, Curso, Comunicado, Difusión…)
