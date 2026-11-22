@@ -23,4 +23,5 @@ El encuentro busca acercar al público al mundo del arte científico: sus fundam
 
 **Coordina:** M. Alejandra Rossin.
 
-La actividad es abierta y en línea. [Ingresá al conversatorio aquí](https://www.youtube.com/watch?v=8huz4xuC3qw)
+La actividad es abierta y en línea. 
+![Ingresá al conversatorio aquí](https://www.youtube.com/watch?v=8huz4xuC3qw)
