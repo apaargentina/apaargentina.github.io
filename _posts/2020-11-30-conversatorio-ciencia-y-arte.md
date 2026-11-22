@@ -25,7 +25,10 @@ El encuentro busca acercar al público al mundo del arte científico: sus fundam
 
 Podés ver el video del conversatorio aquí:
 
-<div class="video">
-  <iframe src="https://www.youtube.com/watch?v=8huz4xuC3qw"
-    title="Video de YouTube" frameborder="0" allowfullscreen></iframe>
+<div style="position:relative;aspect-ratio:16/9;max-width:100%;margin:2rem 0;">
+  <iframe src="https://www.youtube-nocookie.com/embed/8huz4xuC3qw"
+          title="Título del video"
+          style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px;"
+          allow="accelerometer; encrypted-media; picture-in-picture"
+          allowfullscreen loading="lazy"></iframe>
 </div>
