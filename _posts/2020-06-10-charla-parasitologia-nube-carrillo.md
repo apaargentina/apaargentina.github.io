@@ -5,7 +5,7 @@ date: 2020-06-10
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
-iamgen: Carrillo.png
+imagen: Carrillo.png
 excerpt: "La doctora Carrillo, investigadora del CONICET y docente de la Universidad Nacional de Buenos Aires nos habla sobre el test de detección molecular NEOKIT."
 ---
 
