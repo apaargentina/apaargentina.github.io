@@ -15,6 +15,10 @@ La expositora será la **Dra. Carolina Carrillo**, investigadora del CONICET, do
 
 Podés ver la charla aquí: 
 
-Parte uno: {% include video.html id="V01ik5lcvxE" titulo="Charla Dra. Carolina Carrillo" %}
+Parte uno: 
 
-Parte dos: {% include video.html id="lF6WxdwPJUE" titulo="Charla Dra. Carolina Carrillo_2" %}
+{% include video.html id="V01ik5lcvxE" titulo="Charla Dra. Carolina Carrillo" %}
+
+Parte dos:
+
+{% include video.html id="lF6WxdwPJUE" titulo="Charla Dra. Carolina Carrillo_2" %}
