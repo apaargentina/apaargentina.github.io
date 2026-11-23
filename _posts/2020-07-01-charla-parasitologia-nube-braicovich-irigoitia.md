@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Parasitología en la Nube: Paola Braicovich y Manuel Irigoitia nos cuenta sobre estudios genéticos en parásitos"
+title: "Parasitología en la Nube: Paola Braicovich y Manuel Irigoitia nos cuentan sobre estudios genéticos en parásitos"
 date: 2020-07-01
 categoria: "Eventos"
 tipo: "Charla"
