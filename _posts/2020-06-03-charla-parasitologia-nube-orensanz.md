@@ -5,7 +5,7 @@ date: 2020-06-03
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
-iamgen: helmintos.png 
+imagen: helmintos.png 
 excerpt: "El doctor Orensanz, docente y becario posdoctoral de la Universidad de Mar del Plata nos cuenta sobre la historia de la helmintología."
 ---
 
