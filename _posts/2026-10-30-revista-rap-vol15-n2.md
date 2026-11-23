@@ -8,7 +8,7 @@ excerpt: "Ya podés acceder al nuevo número de la revista argentina de parasito
 imagen: RAP_15_2.png
 ---
 
-Ya está disponible el **volumen 9, número 2** de la **Revista Argentina de Parasitología (RAP)**, el órgano oficial de difusión científica de la Asociación Parasitológica Argentina.
+Ya está disponible el **volumen 15, número 2** de la **Revista Argentina de Parasitología (RAP)**, el órgano oficial de difusión científica de la Asociación Parasitológica Argentina.
 
 [Leé el nuevo número aquí](https://www.revargparasitologia.com.ar/ojs/index.php/rap/issue/view/29)
 
