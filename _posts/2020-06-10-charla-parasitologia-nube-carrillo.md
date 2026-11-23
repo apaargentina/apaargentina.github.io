@@ -9,7 +9,7 @@ imagen: Carrillo.png
 excerpt: "La doctora Carrillo, investigadora del CONICET y docente de la Universidad Nacional de Buenos Aires nos habla sobre el test de detección molecular NEOKIT."
 ---
 
-El ciclo **Parasitología en la Nube** de la APA continúa el **miércoles 10 de junio a las 17 h** con la charla **«Test de detección molecular NEOKIT: del Chagas alCOVID-19 ¿Cómo, cuándo y por qué?»**.
+El ciclo **Parasitología en la Nube** de la APA continúa el **miércoles 10 de junio a las 17 h** con la charla **«Test de detección molecular NEOKIT: del Chagas al COVID-19 ¿Cómo, cuándo y por qué?»**.
 
 La expositora será la **Dra. Carolina Carrillo**, investigadora del CONICET, docente de la Universidad de Buenos Aires y Directora del grupo de I+D+i miembro que desarrolló el NEOKIT para COVID-19.
 

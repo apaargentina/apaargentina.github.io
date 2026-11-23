@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Parasitología en la Nube: María Soledad Santini habla sobre la producción social de las enfermedades"
-date: 2020-07-04
+date: 2020-08-26
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
