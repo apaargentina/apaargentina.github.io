@@ -9,7 +9,7 @@ imagen: landaeta.png
 excerpt: "El doctor Carlos Landaeta, profesor asistente de la Universidad de Concepción nos habla sobre los parásitos y mamíferos alóctonos de Chile continental."
 ---
 
-El ciclo **Parasitología en la Nube** de la APA continúa el **miércoles 23 de junio a las 18 h** con la charla **«Parásitos y mamíferos alóctonos de Chile continental»**.
+El ciclo **Parasitología en la Nube** de la APA continúa el **martes 23 de junio a las 18 h** con la charla **«Parásitos y mamíferos alóctonos de Chile continental»**.
 
 El expositor será el **Dr. Carlos Landaeta Aqueveque**, profesor asistente de la Universidad de Concepción.
 
