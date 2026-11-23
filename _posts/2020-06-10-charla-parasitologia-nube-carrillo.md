@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Parasitología en la Nube: Carolina Carrillo la detección molecular NEOKIT"
+title: "Parasitología en la Nube: Carolina Carrillo y la detección molecular NEOKIT"
 date: 2020-06-10
 categoria: "Eventos"
 tipo: "Charla"
