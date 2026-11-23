@@ -17,4 +17,4 @@ El ciclo **Parasitología en la Nube** cierra su temporada 2021 el **martes 14 d
 
 ![Afiche de la charla de las Dras. Zonta y Garraza](/assets/img/noticias/2021-12-charla-parasitologia-nube-zonta-garraza.jpg)
 
-La actividad es abierta y en línea. [Ingresá a la charla aquí](https://meet.jit.si/AsociacionParasitologicaArgentina)
+{% include video.html id="LQYOcInhrp8" titulo="Integrando saberes entre la Universidad y la Comunidad: una mirada interdisciplinaria." %}
