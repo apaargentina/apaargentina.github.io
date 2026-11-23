@@ -27,7 +27,7 @@ editar `_config.yml` hay que esperar el despliegue completo: ese archivo solo se
 ```
 _config.yml            ← datos generales, links, precios, contactos, menú
 _data/                 ← tablas CSV editables + TABLAS.md
-_includes/             ← piezas reutilizables (header, footer, tarjetas, archivo por categoría…)
+_includes/             ← piezas reutilizables (header, footer, tarjetas, archivo por categoría, video.html…)
 _layouts/              ← plantillas: default / page / post
 _posts/                ← novedades, eventos, cursos, convocatorias (YYYY-MM-DD-titulo.md)
 pages/                 ← asociacion, novedades, eventos, formacion-convocatorias, asociate, contacto
@@ -81,6 +81,17 @@ Subir la imagen a `assets/img/noticias/` y, donde corresponda en el texto de la 
 ```
 
 La descripción es importante: la leen los lectores de pantalla y se ve si la imagen no carga.
+
+### Videos de YouTube dentro de una entrada
+
+Donde corresponda en el texto de la entrada, escribir:
+
+```liquid
+{% include video.html id="ID_DEL_VIDEO" titulo="Título del video" %}
+```
+
+`id` es el código que sigue a `v=` en la dirección del video (en `https://www.youtube.com/watch?v=abc123XYZ` es `abc123XYZ`).
+`titulo` es opcional: lo leen los lectores de pantalla. El video se adapta al ancho de la pantalla, incluido el celular.
 
 ## Entradas (`_posts/`)
 

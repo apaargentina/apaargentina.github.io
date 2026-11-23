@@ -25,10 +25,4 @@ El encuentro busca acercar al público al mundo del arte científico: sus fundam
 
 Podés ver el video del conversatorio aquí:
 
-<div style="position:relative;aspect-ratio:16/9;max-width:100%;margin:2rem 0;">
-  <iframe src="https://www.youtube-nocookie.com/embed/8huz4xuC3qw"
-          title="Título del video"
-          style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px;"
-          allow="accelerometer; encrypted-media; picture-in-picture"
-          allowfullscreen loading="lazy"></iframe>
-</div>
+{% include video.html id="8huz4xuC3qw" titulo="Conversatorio Ciencia y Arte" %}
