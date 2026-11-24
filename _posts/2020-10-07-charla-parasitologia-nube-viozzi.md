@@ -5,6 +5,7 @@ date: 2020-10-07
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: viozzi.png
 excerpt: "El doctor Viozzi, investigador independiente del CONICET en el INIBIOMA, nos cuenta cómo la extensión universitaria puede aportar al problema de los perros sin control en las ciudades."
 ---
 

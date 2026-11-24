@@ -5,6 +5,7 @@ date: 2020-10-14
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube", "Peces"]
+imagen: salgado.png
 excerpt: "El doctor Salgado-Maldonado, del Instituto de Biología de la UNAM, nos cuenta sobre la diversidad de helmintos parásitos de peces de agua dulce de México y Centroamérica."
 ---
 
