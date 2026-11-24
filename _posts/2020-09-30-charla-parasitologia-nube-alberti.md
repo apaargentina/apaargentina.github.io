@@ -5,6 +5,7 @@ date: 2020-09-30
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: r_alberti.png
 excerpt: "El doctor Alberti, investigador adjunto del CONICET en el IIMyC, nos cuenta qué es R y cómo dar los primeros pasos en el análisis de datos."
 ---
 
