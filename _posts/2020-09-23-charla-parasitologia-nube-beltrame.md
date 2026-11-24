@@ -5,6 +5,7 @@ date: 2020-09-23
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: beltrame.png
 excerpt: "La doctora Beltrame, paleoparasitóloga del IIPROSAM, nos cuenta qué revelan los parásitos hallados en restos antiguos."
 ---
 

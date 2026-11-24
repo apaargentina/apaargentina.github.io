@@ -5,6 +5,7 @@ date: 2020-07-29
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube", "Chagas"]
+imagen: bontti.png
 excerpt: "El doctor Bontti, bioquímico y referente provincial de Mendoza para el diagnóstico de Chagas, nos cuenta la historia de las personas detrás de los métodos de diagnóstico."
 ---
 

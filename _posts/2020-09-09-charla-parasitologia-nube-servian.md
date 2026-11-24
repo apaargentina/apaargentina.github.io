@@ -5,6 +5,7 @@ date: 2020-09-09
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: servian.png 
 excerpt: "La licenciada Servián, becaria del CONICET en el CEPAVE, nos cuenta paso a paso el camino para identificar parásitos a partir de su secuencia de ADN."
 ---
 

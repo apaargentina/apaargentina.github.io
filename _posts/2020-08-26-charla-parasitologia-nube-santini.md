@@ -5,6 +5,7 @@ date: 2020-08-26
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: santini.png
 excerpt: "La doctora Santini, directora del CeNDIE-ANLIS, nos propone mirar las enfermedades desde una perspectiva socioambiental."
 ---
 

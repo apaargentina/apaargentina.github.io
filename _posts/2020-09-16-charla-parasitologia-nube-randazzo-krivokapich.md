@@ -5,6 +5,7 @@ date: 2020-09-16
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: trichinella.png
 excerpt: "Los doctores Randazzo y Krivokapich nos cuentan sus experiencias de trabajo con la trichinellosis, una zoonosis que sigue presente en el país."
 ---
 

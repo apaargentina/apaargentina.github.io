@@ -5,6 +5,7 @@ date: 2020-07-22
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: guagliardo.png
 excerpt: "La doctora Guagliardo, docente e investigadora de la Universidad Nacional del Sur, nos cuenta cómo enseñar parasitología con la modalidad de aprendizaje basado en problemas."
 ---
 

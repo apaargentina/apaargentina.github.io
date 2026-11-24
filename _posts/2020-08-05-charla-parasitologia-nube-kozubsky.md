@@ -5,6 +5,7 @@ date: 2020-08-05
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: kozubsky.png
 excerpt: "La doctora Kozubsky, profesora titular de Parasitología de la Universidad Nacional de La Plata, nos cuenta sobre la blastocistosis."
 ---
 

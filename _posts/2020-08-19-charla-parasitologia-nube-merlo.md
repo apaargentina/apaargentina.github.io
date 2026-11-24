@@ -5,6 +5,7 @@ date: 2020-08-19
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: merlo.png
 excerpt: "El doctor Merlo, investigador asistente del CONICET, nos cuenta por qué darse a conocer e interactuar es una cuenta pendiente de la parasitología argentina."
 ---
 

@@ -5,6 +5,7 @@ date: 2020-09-02
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: ratas.png
 excerpt: "Los doctores Gómez Muñoz y Fitte nos cuentan sobre los parásitos y patógenos de los roedores urbanos en dos ciudades capitales con realidades distintas."
 ---
 
