@@ -5,6 +5,7 @@ date: 2021-04-26
 categoria: "Novedades"
 tipo: "Difusión"
 tematicas: ["Chagas"]
+imagen: chagas.png
 excerpt: "La fecha recuerda el día en que Carlos Chagas diagnosticó por primera vez la enfermedad, en una niña de dos años. Fue declarada por la Asamblea Mundial de la Salud en 2019."
 ---
 

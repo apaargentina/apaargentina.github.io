@@ -5,6 +5,7 @@ date: 2022-02-15
 categoria: "Novedades"
 tipo: "Difusión"
 tematicas: ["Chagas"]
+imagen: malbran.png
 excerpt: "Especialistas de todo el país acordaron usar la qPCR como método de elección en recién nacidos de hasta 10 meses. Ya está disponible el informe técnico completo."
 ---
 
