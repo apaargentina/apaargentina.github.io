@@ -5,6 +5,7 @@ date: 2022-01-12
 categoria: "Novedades"
 tipo: "Comunicado"
 tematicas: ["Arte y Ciencia"]
+imagen: 2022-01-calendario-apa-2022.jpg
 excerpt: "Las imágenes del primer concurso de fotografía «Arte Parasitológico», elegidas también por votación en Instagram, ilustran cada mes del año. Se puede descargar gratis."
 ---
 
