@@ -5,6 +5,7 @@ date: 2021-08-25
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube", "Echinococcosis"]
+imagen: echinococcus.png
 excerpt: "La doctora Kamenetzky, investigadora independiente del CONICET, nos cuenta qué revelan los genes y genomas de las especies de Echinococcus de la fauna doméstica y silvestre."
 ---
 

@@ -5,6 +5,7 @@ date: 2021-09-29
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: digenea.png
 excerpt: "La doctora Davies, investigadora asistente del Instituto de Patología Experimental, nos cuenta los desafíos de identificar con herramientas moleculares a los digeneos de agua dulce del Valle de Lerma."
 ---
 

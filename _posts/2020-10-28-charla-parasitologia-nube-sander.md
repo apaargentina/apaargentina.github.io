@@ -5,6 +5,7 @@ date: 2020-10-28
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: coccidios.png
 excerpt: "La doctora Sander, investigadora adjunta del CONICET en el INTECh, nos cuenta sobre el desarrollo de vacunas de nueva generación contra coccidios."
 ---
 

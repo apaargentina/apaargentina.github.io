@@ -5,6 +5,7 @@ date: 2020-11-11
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: aves.png
 excerpt: "La doctora Drago, docente e investigadora de la UNLP y de la CIC, nos cuenta cuánto sabemos sobre los helmintos de las aves silvestres de Argentina."
 ---
 

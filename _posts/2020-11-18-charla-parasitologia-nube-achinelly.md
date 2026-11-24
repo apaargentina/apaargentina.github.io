@@ -5,6 +5,7 @@ date: 2020-11-18
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: nematoda.png
 excerpt: "La doctora Achinelly, investigadora independiente del CEPAVE, nos cuenta por qué monitorear e identificar nematodos fitoparásitos es clave para controlarlos en el Cinturón Hortícola Platense."
 ---
 

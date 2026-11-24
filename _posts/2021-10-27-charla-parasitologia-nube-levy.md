@@ -5,6 +5,7 @@ date: 2021-10-27
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube", "Peces"]
+imagen: pejerrey.png
 excerpt: "La licenciada Levy, becaria doctoral del IIMyC, nos cuenta cómo los ensambles de parásitos permiten distinguir poblaciones de pejerrey."
 ---
 

@@ -5,6 +5,7 @@ date: 2021-07-28
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: sars-cov-2.png
 excerpt: "El doctor Beldomenico, director del LEcEN (ICIVET-Litoral), nos cuenta qué mecanismos y procesos explican el patrón de transmisión del SARS-CoV-2."
 ---
 

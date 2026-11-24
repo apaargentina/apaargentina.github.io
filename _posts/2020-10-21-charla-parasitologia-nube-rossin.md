@@ -5,6 +5,7 @@ date: 2020-10-21
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: 3dparasite.png
 excerpt: "La doctora Rossin, investigadora adjunta del CONICET en el IIMyC, nos cuenta cómo la morfología tridimensional ayuda a estudiar la diversidad parasitaria."
 ---
 

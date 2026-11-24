@@ -5,6 +5,7 @@ date: 2020-11-25
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: bivalvos.png
 excerpt: "Las doctoras Cremonte, Vázquez, Gilardoni y Diez, del IBIOMAR (CONICET-CENPAT), nos cuentan cuánto sabemos sobre los simbiontes de crustáceos y moluscos de las costas patagónicas."
 ---
 

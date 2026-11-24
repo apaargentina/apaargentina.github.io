@@ -5,6 +5,7 @@ date: 2021-06-30
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: timi.png
 excerpt: "El doctor Timi, investigador principal del CONICET, abre la temporada 2021 y nos cuenta por qué es un error ignorar a los parásitos en los estudios ecológicos."
 ---
 

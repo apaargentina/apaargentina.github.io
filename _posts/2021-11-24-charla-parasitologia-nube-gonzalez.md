@@ -5,6 +5,7 @@ date: 2021-11-24
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube", "Herpetología"]
+imagen: anfibio_chaco.png
 excerpt: "La doctora González, del CECOAL (CONICET-UNNE), nos cuenta sobre sus estudios de los parásitos de ranas y sapos del Gran Chaco."
 ---
 

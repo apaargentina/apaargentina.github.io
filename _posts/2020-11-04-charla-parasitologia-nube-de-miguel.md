@@ -5,6 +5,7 @@ date: 2020-11-04
 categoria: "Eventos"
 tipo: "Charla"
 tematicas: ["Parasitología en la Nube"]
+imagen: trichomonas.png
 excerpt: "La doctora de Miguel, investigadora independiente del CONICET en el INTECh, nos cuenta cómo se regulan la transcripción y la estructura de la cromatina en Trichomonas vaginalis."
 ---
 
