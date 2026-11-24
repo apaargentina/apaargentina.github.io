@@ -5,6 +5,7 @@ date: 2020-11-30
 categoria: "Eventos"
 tipo: "Conversatorio"
 tematicas: ["Arte y Ciencia"]
+imagen: ernest_haeckel.png
 excerpt: "Una investigadora en letras, un artista, un ilustrador científico y una bióloga y artista plástica conversan sobre los puentes entre los dos mundos. Es el 3 de diciembre a las 17 h."
 ---
 

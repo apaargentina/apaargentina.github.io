@@ -4,7 +4,7 @@ title: "Parasitología en la Nube: Graciela Santillán habla sobre hidatidosis y
 date: 2020-08-12
 categoria: "Eventos"
 tipo: "Charla"
-tematicas: ["Parasitología en la Nube", "Echinococcosis"]
+tematicas: ["Parasitología en la Nube"]
 imagen: santillan.png
 excerpt: "La doctora Santillán, del Instituto Nacional de Enfermedades Infecciosas (ANLIS Malbrán), nos cuenta sobre la situación de la hidatidosis y la toxocariosis en Argentina."
 ---
