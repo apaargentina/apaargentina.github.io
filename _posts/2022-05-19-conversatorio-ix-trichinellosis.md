@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Noveno conversatorio sobre trichinellosis: vigilancia de la cadena porcina"
-date: 2022-05-13
+date: 2022-05-19
 categoria: "Eventos"
 tipo: "Conversatorio"
-tematicas: ["Trichinellosis"]
+tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: IX-conversatorio-trichinellosis.png
 excerpt: "Experiencias municipales de Buenos Aires y Córdoba para controlar el riesgo de trichinellosis en la producción de cerdos. El encuentro es el jueves 19 de mayo a las 18 h."
 ---
 
@@ -22,4 +23,12 @@ La cita es el **jueves 19 de mayo de 2022 a las 18 h**, en formato virtual y con
 
 **Coordinan:** Dra. Viviana Randazzo y MV Gustavo Montali.
 
-[Ingresá al conversatorio aquí](https://meet.jit.si/AsociacionParasitologicaArgentina)
+Podés ver el video del conversatorio aquí:
+
+Parte uno:
+
+{% include video.html id="GMw113cFKPs" titulo="IX Conversatorio sobre abordaje integral de la trichinellosis (parte 1)" %}
+
+Parte dos:
+
+{% include video.html id="ZRs_Q06Z26U" titulo="IX Conversatorio sobre abordaje integral de la trichinellosis (parte 2)" %}

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Cuarto conversatorio sobre trichinellosis: unificar el diagnóstico animal en todo el país"
-date: 2021-06-07
+date: 2021-06-10
 categoria: "Eventos"
 tipo: "Conversatorio"
-tematicas: ["Trichinellosis"]
+tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: IV-conversatorio-trichinellosis.png
 excerpt: "Especialistas del SENASA explican cómo lograr una metodología común para todos los laboratorios de Argentina. El encuentro es el jueves 10 de junio a las 17:30 h."
 ---
 
@@ -21,4 +22,6 @@ El encuentro será el **jueves 10 de junio de 2021 a las 17:30 h** y abordará l
 
 **Coordinan:** Dra. Viviana Randazzo y MV Gustavo Montali.
 
-[Ingresá al conversatorio aquí](https://meet.jit.si/AsociacionParasitologicaArgentina)
+Podés ver el video del conversatorio aquí:
+
+{% include video.html id="231Ac8z99fc" titulo="IV Conversatorio sobre abordaje integral de la trichinellosis" %}

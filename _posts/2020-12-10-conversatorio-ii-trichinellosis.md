@@ -4,7 +4,8 @@ title: "Segundo conversatorio sobre trichinellosis: identificar el problema en A
 date: 2020-12-10
 categoria: "Eventos"
 tipo: "Conversatorio"
-tematicas: ["Trichinellosis"]
+tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: II-conversatorio-trichinellosis.png
 excerpt: "El Ministerio de Salud, el Instituto Malbrán y el SENASA presentan su mirada sobre la trichinellosis en el país. El encuentro es el jueves 10 de diciembre a las 16 h."
 ---
 
@@ -22,4 +23,6 @@ Cada disertante tendrá entre 10 y 15 minutos para exponer, y luego se abrirá u
 
 **Coordinan:** Dra. Viviana Randazzo y MV Gustavo Montali.
 
-[Ingresá al conversatorio aquí](https://meet.jit.si/AsociacionParasitologicaArgentina)
+Podés ver el video del conversatorio aquí:
+
+{% include video.html id="INSrq4RDhY8" titulo="II Conversatorio sobre abordaje integral de la trichinellosis" %}

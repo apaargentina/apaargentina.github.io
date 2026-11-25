@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Séptimo conversatorio sobre trichinellosis: especies de Trichinella en Sudamérica"
-date: 2021-09-06
+date: 2021-09-09
 categoria: "Eventos"
 tipo: "Conversatorio"
-tematicas: ["Trichinellosis"]
+tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: VII-conversatorio-trichinellosis.png
 excerpt: "El equipo de Parasitología de Veterinaria-UBA presenta sus estudios en cerdos, jabalíes y cobayos y el rol de la Comisión Internacional de Trichinellosis. Es el jueves 9 de septiembre."
 ---
 
@@ -24,4 +25,6 @@ Dra. M. Mabel Ribicich, Dra. Mariana Pasqualetti, Dr. Fernando Fariña, Vet. Mar
 
 **Coordinan:** Dra. Viviana Randazzo y MV Gustavo Montali.
 
-[Ingresá al conversatorio aquí](https://meet.jit.si/AsociacionParasitologicaArgentina)
+Podés ver el video del conversatorio aquí:
+
+{% include video.html id="AYFUbiuv77w" titulo="VII Conversatorio sobre abordaje integral de la trichinellosis" %}

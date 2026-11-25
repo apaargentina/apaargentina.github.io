@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Octavo conversatorio sobre trichinellosis: la enfermedad en animales silvestres"
-date: 2021-10-12
+date: 2021-10-14
 categoria: "Eventos"
 tipo: "Conversatorio"
-tematicas: ["Trichinellosis"]
+tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: VIII-conversatorio-trichinellosis.png
 excerpt: "Pumas, jabalíes, armadillos: especialistas de cuatro provincias comparten la situación epidemiológica y el diagnóstico de la trichinellosis en la fauna silvestre. Es el jueves 14 de octubre a las 17 h."
 ---
 
@@ -24,4 +25,6 @@ El encuentro será el **jueves 14 de octubre de 2021 a las 17 h**, con transmisi
 
 **Coordinan:** Dra. Viviana Randazzo y MV Gustavo Montali.
 
-[Ingresá al conversatorio aquí](https://meet.jit.si/AsociacionParasitologicaArgentina) o seguilo en el [canal de YouTube de la APA](https://www.youtube.com/channel/UCLTP0LHsUAKsTvA5TDFFmFw).
+Podés ver el video del conversatorio aquí:
+
+{% include video.html id="ZXdjRwdosmI" titulo="VIII Conversatorio sobre abordaje integral de la trichinellosis" %}

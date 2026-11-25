@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Primer conversatorio de la APA para un abordaje integral de la trichinellosis"
-date: 2020-11-02
+date: 2020-11-05
 categoria: "Eventos"
 tipo: "Conversatorio"
-tematicas: ["Trichinellosis"]
+tematicas: ["Parasitología en la Nube", "Trichinellosis"]
+imagen: I-conversatorio-trichinellosis.png
 excerpt: "Científicos, organismos sanitarios, productores y médicos se sientan a la misma mesa para enfrentar una zoonosis endémica en Argentina. El primer encuentro es el jueves 5 de noviembre."
 ---
 
@@ -24,4 +25,6 @@ Participan equipos de universidades nacionales, el Laboratorio de *Trichinella* 
 
 [Más información y cronograma del conversatorio aquí](/assets/docs/programa-conversatorio-i-trichinellosis.pdf)
 
-[Ingresá al conversatorio aquí](https://meet.jit.si/AsociacionParasitologicaArgentina)
+Podés ver el video del conversatorio aquí:
+
+{% include video.html id="pfmYtblK7EI" titulo="I Conversatorio sobre abordaje integral de la trichinellosis" %}
