@@ -4,6 +4,7 @@ title: "Carta del presidente de la APA a las socias y los socios"
 date: 2019-12-12
 categoria: "Novedades"
 tipo: "Comunicado"
+imagen: juan_timi.png
 excerpt: "Juan T. Timi asume la presidencia con tres prioridades: apoyar a quienes se forman en parasitología, hacer crecer la Revista Argentina de Parasitología y fortalecer el Congreso."
 ---
 
