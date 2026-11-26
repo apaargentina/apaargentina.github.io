@@ -4,6 +4,7 @@ title: "IX Congreso Argentino de Parasitología: Salta 2022 lanza su primera cir
 date: 2021-06-30
 categoria: "Eventos"
 tipo: "Congreso"
+imagen: 2021-06-congreso-ix-cap-salta-7.jpg
 tematicas: ["Congreso Argentino de Parasitología"]
 excerpt: "Por primera vez el Congreso se hará en el NOA, del 18 al 20 de mayo de 2022, con formato mixto y el lema «Parásitos en red». La inscripción temprana tiene descuento hasta el 30 de noviembre."
 ---

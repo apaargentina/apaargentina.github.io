@@ -4,6 +4,7 @@ title: "La APA presentó un simposio en el XI Congreso de la Sociedad Argentina 
 date: 2022-03-18
 categoria: "Eventos"
 tipo: "Congreso"
+imagen: 2022-APA-simposio.png
 excerpt: "Trichinellosis, amebas de vida libre, Blastocystis y parasitosis intestinales fueron los ejes del simposio que organizaron socias de la APA en Mendoza."
 ---
 

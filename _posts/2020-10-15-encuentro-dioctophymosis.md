@@ -4,6 +4,7 @@ title: "Primer Encuentro Latinoamericano de Dioctophymosis"
 date: 2020-10-15
 categoria: "Eventos"
 tipo: "Encuentro"
+imagen: dioctofimosis.png
 excerpt: "Bajo el lema «Dioctophymosis rompiendo fronteras», especialistas de la región se reúnen en línea del 25 al 27 de noviembre."
 ---
 
@@ -14,3 +15,17 @@ La dioctophymosis es una parasitosis causada por el nematodo *Dioctophyme renale
 ![Afiche del 1.º Encuentro Latinoamericano de Dioctophymosis](/assets/img/noticias/2020-10-encuentro-dioctophymosis.jpg)
 
 La transmisión será por el canal de YouTube del DAMV-Unipampa. **Inscripciones:** parasitounipampa@gmail.com
+
+Podés acceder a los videos aquí:
+
+Día 1:
+
+{% include video.html id="vlllwa8jJ_s" titulo="Día 1" %}
+
+Día 2:
+
+{% include video.html id="77PrnFtaRxk" titulo="Día 2" %}
+
+Día 3:
+
+{% include video.html id="Hil1lIH5YnQ" titulo="Día 3" %}

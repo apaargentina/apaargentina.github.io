@@ -5,6 +5,7 @@ date: 2022-04-20
 categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["Congreso Argentino de Parasitología"]
+imagen: 2021-06-congreso-ix-cap-salta-7.jpg
 excerpt: "La presidenta de la Comisión Organizadora, Dora Davies, presentó el congreso en la TV a un mes del encuentro en Salta."
 ---
 

@@ -5,7 +5,7 @@ date: 2019-07-17
 categoria: "Eventos"
 tipo: "Congreso"
 tematicas: ["FLAP"]
-imagen:      # opcional, va en assets/img/noticias/
+imagen: xxv-flap.png     # opcional, va en assets/img/noticias/
 excerpt: "Del 24 al 27 de noviembre de 2019 se realizará en la Ciudad de Panamá el XXV Congreso de la Federación Latinoamericana de Parasitología (FLAP), bajo el lema Parásitos sin fronteras. La sede será el Centro de Convenciones Megápolis."
 ---
 
