@@ -4,6 +4,7 @@ title: "La Sociedad Argentina de Protozoología realiza su XXXII Reunión Anual 
 date: 2020-09-02
 categoria: "Eventos"
 tipo: "Reunión Científica"
+imagen: Sociedad_Argentina_de_Protozoologia.png
 excerpt: "Conferencias, mesas redondas y comunicaciones libres con acceso libre, del 18 al 20 de noviembre. Los trabajos se reciben hasta el 12 de septiembre."
 ---
 

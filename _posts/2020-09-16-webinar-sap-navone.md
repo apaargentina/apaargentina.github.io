@@ -4,6 +4,7 @@ title: "Graciela Navone presenta un webinar sobre parasitosis intestinales en Ar
 date: 2020-09-16
 categoria: "Eventos"
 tipo: "Webinar"
+imagen: webinar-graciela.png
 excerpt: "¿Cómo se distribuyen hoy las infecciones por protistas intestinales en el país? La charla, del ciclo de webinars de la Sociedad Argentina de Protozoología, es el viernes 18 de septiembre a las 10."
 ---
 
