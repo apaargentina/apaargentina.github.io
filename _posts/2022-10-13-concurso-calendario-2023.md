@@ -5,6 +5,7 @@ date: 2022-10-13
 categoria: "Formación y Convocatorias"
 tipo: "Concurso"
 tematicas: ["Arte y Ciencia"]
+imagen: concursofoto.png
 excerpt: "Doce fotografías de parásitos, elegidas por votación en Instagram, formarán el calendario del año. Puede participar cualquier persona, sea o no socia de la APA, hasta el 28 de octubre."
 ---
 
