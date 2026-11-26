@@ -5,6 +5,7 @@ date: 2020-11-06
 categoria: "Eventos"
 tipo: "Jornada"
 tematicas: ["Echinococcosis"]
+imagen: jornada-echinococcosis.png
 excerpt: "Catorce especialistas de Argentina, Chile y Perú comparten su experiencia en el diagnóstico de la hidatidosis. Es gratuita, por Zoom, el 30 de noviembre."
 ---
 
@@ -16,6 +17,19 @@ La actividad es **gratuita, con inscripción previa**, y la organizan la Dra. Ve
 
 ## Disertantes
 
-Dra. Laura Gertiser, Dra. Nora Pierangeli, Dra. María Isabel Jercic (Chile), Dr. Gabriel Ávila, Bqca. Cecilia Mozzoni, Dra. Katherina Vizcaychipi, Dra. Verónica Poggio, Dra. Graciela Céspedes, Dra. Graciela Santillán, Dra. Lorena Lazzarini, Dr. Matías Pérez, Dra. Luz Toribio (Perú), Dra. Andrea Maglioco y Dra. María Victoria Periago.
+- Dra. Laura Gertiser (ARG)
+- Dra. Nora Pierangeli (ARG)
+- Dra. María Isabel Jercic (CHL)
+- Dr. Gabriel Ávila (ARG)
+- Bqca. Cecilia Mozzoni (ARG)
+- Dra. Katherina Vizcaychipi (ARG)
+- Dra. Verónica Poggio (ARG)
+- Dra. Graciela Céspedes (ARG)
+- Dra. Graciela Santillán (ARG)
+- Dra. Lorena Lazzarini (ARG)
+- Dr. Matías Pérez (ARG)
+- Dra. Luz Toribio (PER)
+- Dra. Andrea Maglioco (ARG)
+- Dra. María Victoria Periago (ARG)
 
 **Inscripción:** [formulario en línea](https://docs.google.com/forms/d/1rfQ8vXH5mPd7hVUG6KTO7HrMD6-D0Fu0xfV4N6-NMaE/viewform). **Consultas:** extension.veterinaria@uccuyosl.edu.ar

@@ -4,6 +4,7 @@ title: "Primera Jornada «Una Salud» sobre enfermedades zoonóticas regionales 
 date: 2020-10-24
 categoria: "Eventos"
 tipo: "Jornada"
+imagen: jornadaunasalud.png
 excerpt: "Médicos, veterinarios, biólogos, guardaparques y más, juntos para pensar las zoonosis como problema de salud pública. Es virtual y gratuita, el 3 y 4 de noviembre."
 ---
 

@@ -5,6 +5,7 @@ date: 2020-09-30
 categoria: "Eventos"
 tipo: "Jornada"
 tematicas: ["Chagas"]
+imagen: jornada-chagas.png
 excerpt: "Docentes de carreras de la salud de todo el país debaten cómo enseñar Chagas. Las jornadas son virtuales, el 16 y 17 de octubre, con conferencias de Roberto Chuit y Paula Sartor."
 ---
 

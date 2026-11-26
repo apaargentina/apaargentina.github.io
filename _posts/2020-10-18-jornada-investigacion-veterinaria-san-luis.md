@@ -4,6 +4,7 @@ title: "Jornada de Investigación de Veterinaria de la UCCuyo: vinchucas, Toxoca
 date: 2020-10-18
 categoria: "Eventos"
 tipo: "Jornada"
+imagen: jornada-veterinaria-cuyo.png
 excerpt: "Cuatro investigaciones sobre parásitos y vectores en una mañana, gratis y con certificado. La 4.ª Jornada de la Universidad Católica de Cuyo es el 28 de octubre por Zoom."
 ---
 
