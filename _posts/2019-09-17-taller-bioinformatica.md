@@ -4,6 +4,7 @@ title: "Taller de herramientas bioinformáticas para el análisis de secuencias 
 date: 2019-09-17
 categoria: "Formación y Convocatorias"
 tipo: "Taller"
+imagen: curso-bioinformatica.png
 excerpt: "La Asociación Argentina de Microbiología dicta un taller intensivo el 3 y 4 de octubre en Neuquén. El cupo es de 50 personas y la inscripción cierra el 29 de septiembre."
 ---
 

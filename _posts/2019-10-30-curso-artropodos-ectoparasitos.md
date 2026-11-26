@@ -4,6 +4,7 @@ title: "Curso de posgrado sobre artrópodos ectoparásitos en la Universidad Nac
 date: 2019-10-30
 categoria: "Formación y Convocatorias"
 tipo: "Curso"
+imagen: curso-ectoparasitos.png
 excerpt: "Pulgas, piojos, ácaros y garrapatas: sistemática, ecología e importancia sanitaria en 40 horas de cursada. Se dicta del 2 al 6 de diciembre en Salta."
 ---
 

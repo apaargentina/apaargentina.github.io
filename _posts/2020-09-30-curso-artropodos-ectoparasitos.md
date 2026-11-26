@@ -4,6 +4,7 @@ title: "Curso virtual y gratuito de posgrado sobre artrópodos ectoparásitos"
 date: 2020-09-30
 categoria: "Formación y Convocatorias"
 tipo: "Curso"
+imagen: cursoartropodosectoparasitos.png
 excerpt: "La Universidad Nacional de Salta ofrece en modalidad virtual y sin arancel su curso sobre sistemática, ecología e importancia sanitaria de los ectoparásitos. Hay 30 vacantes."
 ---
 

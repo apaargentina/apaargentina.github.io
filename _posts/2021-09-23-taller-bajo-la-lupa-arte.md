@@ -5,6 +5,7 @@ date: 2021-09-23
 categoria: "Formación y Convocatorias"
 tipo: "Taller"
 tematicas: ["Arte y Ciencia"]
+imagen: taller-bajolalupa.png
 excerpt: "No hacen falta conocimientos artísticos: la Comisión Arte y Ciencia invita a socias y socios a crear piezas poéticas a partir de su propia investigación. Son tres encuentros virtuales, de octubre a diciembre."
 ---
 

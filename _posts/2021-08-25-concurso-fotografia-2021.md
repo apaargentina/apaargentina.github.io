@@ -5,6 +5,7 @@ date: 2021-08-25
 categoria: "Formación y Convocatorias"
 tipo: "Concurso"
 tematicas: ["Arte y Ciencia"]
+imagen: concurso-fotografia.png
 excerpt: "Las imágenes ganadoras ilustrarán el Calendario 2022 de la Asociación. Hay tiempo de enviar fotografías hasta el 10 de noviembre."
 ---
 

@@ -4,6 +4,7 @@ title: "«Hablando de ácaros» 2021: curso virtual sobre ácaros agrícolas, de
 date: 2021-05-13
 categoria: "Formación y Convocatorias"
 tipo: "Curso"
+imagen: hablando-de-acaros.png
 excerpt: "La Sociedad Latinoamericana de Acarología reúne a referentes internacionales en un curso de julio a septiembre. Los cupos son limitados y la preinscripción cierra el 7 de junio."
 ---
 

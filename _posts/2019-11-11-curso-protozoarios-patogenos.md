@@ -4,6 +4,7 @@ title: "Curso de posgrado sobre protozoarios patógenos humanos en la Universida
 date: 2019-11-11
 categoria: "Formación y Convocatorias"
 tipo: "Curso"
+imagen: curso-protozoarios.png
 excerpt: "Chagas, toxoplasmosis, paludismo y amebas de vida libre en cuatro días de actualización. El curso se dicta del 27 al 30 de noviembre en la FCQ-UNC."
 ---
 
