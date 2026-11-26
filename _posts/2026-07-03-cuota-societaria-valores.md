@@ -4,7 +4,7 @@ title: "Cuota societaria 2026: nuevos valores desde el 15 de junio"
 date: 2026-07-03
 categoria: "Novedades"
 tipo: "Cuota Societaria"
-excerpt: "La cuota profesional queda en $50.000, y quienes se asocien por primera vez pagan $35.000. También hay valores reducidos para estudiantes."
+excerpt: "Damos a conocer los nuevos valores de la cuota societaria para este año 2026."
 imagen: Pago-cuota.png
 ---
 
